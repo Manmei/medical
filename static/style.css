@@ -265,6 +265,7 @@ img {
 }
 .g-index .m-content .pannel_04 .travel {
     position: relative;
+    margin-top: -5px;
 }
 .g-index .m-content .pannel_04 .travel .btn_01 {
     top: 35%;
