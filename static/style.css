@@ -27,6 +27,7 @@ ul,li,dl,dt,dd {
 }
 a,a:visited {
     text-decoration: none;
+    cursor: pointer;
 }
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0)
