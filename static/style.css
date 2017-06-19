@@ -118,6 +118,7 @@ img {
 .g-index .m-content .pannel h3 {
     font-size: 1.225rem;
     font-weight: bold;
+    letter-spacing: 0;
 }
 .g-index .m-content .pannel p {
     font-family: pingFang;
@@ -209,7 +210,7 @@ img {
     background: #FFF;
     border: 1px solid #fcaa5b;
     color: #fa912b;
-    padding: 0.217rem 0.675rem;
+    padding: 0.217rem 0.575rem;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
