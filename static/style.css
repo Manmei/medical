@@ -207,12 +207,12 @@ img {
     background: #FFF;
     border: 1px solid #fcaa5b;
     color: #fa912b;
-    padding: 0.317rem 0.775rem;
+    padding: 0.217rem 0.675rem;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     font-family: pingFang;
-    font-size: 0.6875rem;
+    font-size: 0.7875rem;
     font-weight: bold;
 }
 .g-index .m-content .pannel_02 .list .btn:active,
@@ -229,12 +229,12 @@ img {
 .g-index .m-content .pannel_02 .list .btn_02 {
     top: 45.5%;
     left: auto;
-    right: 17%;
+    right: 15%;
 }
 .g-index .m-content .pannel_02 .list .btn_03 {
     top: auto;
     bottom: 13%;
-    left: 22%;
+    left: 21.55%;
 }
 /*  pannel_03  */
 .g-index .m-content .pannel_03 {
