@@ -116,7 +116,7 @@ img {
     font-family: pingFang;
 }
 .g-index .m-content .pannel h3 {
-    font-size: 1.0625rem;
+    font-size: 1.225rem;
     font-weight: bold;
 }
 .g-index .m-content .pannel p {
@@ -127,8 +127,9 @@ img {
     margin-left: -10px;
 }
 .g-index .m-content .pannel p.desc {
-    font-size: 0.6875rem;
+    font-size: 0.75rem;
     letter-spacing: 0px;
+    font-weight: 100;
 }
 .g-index .m-content .pannel_01 .list {
     margin-top: 20px;
@@ -224,17 +225,17 @@ img {
 }
 .g-index .m-content .pannel_02 .list .btn_01 {
     top: 31.5%;
-    left: 18%;
+    left: 19%;
 }
 .g-index .m-content .pannel_02 .list .btn_02 {
     top: 45.5%;
     left: auto;
-    right: 15.8%;
+    right: 16.8%;
 }
 .g-index .m-content .pannel_02 .list .btn_03 {
     top: auto;
     bottom: 14%;
-    left: 22.3%;
+    left: 23.3%;
 }
 /*  pannel_03  */
 .g-index .m-content .pannel_03 {
@@ -252,7 +253,7 @@ img {
 }
 .g-index .m-content .pannel_03 .slist li a {
     position: absolute;
-    top: 43%;
+    top: 46%;
     right: 14%;
 }
 /*  pannel_04   */
@@ -269,7 +270,7 @@ img {
 }
 .g-index .m-content .pannel_04 .travel .btn_01 {
     top: 35%;
-    left: 17%;
+    left: 18%;
 }
 .g-index .m-content .pannel_04 .travel .btn_02 {
     top: 25%;
@@ -277,15 +278,15 @@ img {
 }
 .g-index .m-content .pannel_04 .travel .btn_03 {
     top: 69%;
-    left: 17%;
+    left: 18%;
 }
 .g-index .m-content .pannel_04 .travel .btn_04 {
     top: 58%;
-    right: 17%;
+    right: 18%;
 }
 .g-index .m-content .pannel_04 .travel .btn_05 {
     bottom: 4%;
-    right: 25.8%;
+    right: 27.5%;
 }
 
 /*  g-footer  */
