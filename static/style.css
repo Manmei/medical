@@ -163,7 +163,7 @@ img {
     font-weight: bold;
 }
 .g-index .m-content .pannel_01 .list li p {
-    padding: 0 0 0.2rem;
+    padding: 0 0 0.15rem;
 }
 .g-index .m-content .pannel .list li p,
 .g-index .m-content .pannel .list li a {
@@ -257,7 +257,7 @@ img {
 .g-index .m-content .pannel_03 .slist li a {
     position: absolute;
     top: 0.35rem;
-    right: 0.78rem;
+    right: 0.83rem;
     z-index: 10;
 }
 /*  pannel_04   */
