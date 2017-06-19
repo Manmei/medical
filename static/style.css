@@ -1,5 +1,5 @@
 @charset "utf-8";
-@media screen and (min-width: 768px) {html {font-size: 38.4px;}html,body {max-width: 768px;margin: 0 auto;min-height: 100%;}}
+/*@media screen and (min-width: 768px) {html {font-size: 38.4px;}html,body {max-width: 768px;margin: 0 auto;min-height: 100%;}}*/
 html,body {
     -webkit-user-select:none;
     user-select: none;
@@ -27,7 +27,6 @@ ul,li,dl,dt,dd {
 }
 a,a:visited {
     text-decoration: none;
-    cursor: pointer;
 }
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0)
@@ -99,15 +98,16 @@ img {
 }
 /*  m-content  */
 .g-index .m-content .pannel {
-    padding: 20px 30px 35px;
+    padding: 0.2rem 0.3rem 0.55rem;
     margin-bottom: -1px;
 }
 .g-index .m-content .pannel_01 {
     background: url(img/pannel_01.png) top center no-repeat;
     background-size: cover;
+    padding-top: 0.3rem;
 }
 .g-index .m-content .pannel_01 p img {
-    width: 2.1625rem;
+    width: 0.66rem;
     vertical-align: 0px;
 }
 .g-index .m-content .pannel p,
@@ -116,34 +116,34 @@ img {
     font-family: pingFang;
 }
 .g-index .m-content .pannel h3 {
-    font-size: 1.225rem;
+    font-size: 0.34rem;
     font-weight: bold;
-    letter-spacing: 0;
 }
 .g-index .m-content .pannel p {
     font-family: pingFang;
-    margin: 5px 0 10px;
+    margin: 0.15rem 0 0.14rem;
+    /*font-weight: 100;*/
 }
 .g-index .m-content .pannel p.age {
-    margin-left: -10px;
-    font-size: 0.85rem;
+    margin-left: -5px;
+    font-size: 0.21rem;
+    margin-top: 0.06rem;
 }
 .g-index .m-content .pannel p.desc {
-    font-size: 0.75rem;
+    font-size: 0.23rem;
     letter-spacing: 0px;
-    font-weight: 100;
 }
 .g-index .m-content .pannel_01 .list {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .g-index .m-content .pannel_01 .list li {
     float: left;
-    margin-right: 0.4375rem;
+    margin-right: 0.13rem;
     background: #fff;
     text-align: center;
     border-radius: 3px;
     flex: 1;
-    padding-bottom: 1rem;
+    padding-bottom: 0.3rem;
 }
 .g-index .m-content .pannel_01 .list li:last-child {
     margin-right: 0;
@@ -159,7 +159,7 @@ img {
 }
 .g-index .m-content .pannel .list li p {
     color: #39383c;
-    font-size: 0.75rem;
+    font-size: 0.24rem;
     font-weight: bold;
 }
 .g-index .m-content .pannel .list li p,
@@ -171,19 +171,17 @@ img {
     background: #FFF;
     border: 1px solid #687aff;
     color: #2e46f0;
-    padding: 0.217rem 0.675rem;
+    padding: 0.09rem 0.22rem;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius:3px;
     margin: 0.4375rem 0;
-    font-size: 0.7875rem;
+    font-size: 0.22rem;
     font-weight: bold;
 }
-.g-index .m-content .pannel_01 .list li a:visited,
-.g-index .m-content .pannel_01 .list li a:visited,
+.g-index .m-content .pannel_01 .list li a:active,
 .g-index .m-content .pannel_01 .list li .active,
-.g-index .m-content .pannel_03 .slist li a:visited,
-.g-index .m-content .pannel_01 .list li a:visited{
+.g-index .m-content .pannel_03 .slist li a:active{
     background: #2e46f0;
     color: #fff;
 }
@@ -210,42 +208,40 @@ img {
     background: #FFF;
     border: 1px solid #fcaa5b;
     color: #fa912b;
-    padding: 0.217rem 0.675rem;
+    padding: 0.11rem 0.29rem;
+    padding: 0.09rem 0.22rem;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
     font-family: pingFang;
-    font-size: 0.7875rem;
+    font-size: 0.22rem;
     font-weight: bold;
 }
-.g-index .m-content .pannel_02 .list .btn:visited,
-.g-index .m-content .pannel_02 .list .btn:visited,
-.g-index .m-content .pannel_04 .travel .btn:visited,
-.g-index .m-content .pannel_04 .travel .btn:visited{
+.g-index .m-content .pannel_02 .list .btn:active,
+.g-index .m-content .pannel_04 .travel .btn:active {
     background: #fa912b;
     color: #fff;
 }
 .g-index .m-content .pannel_02 .list .btn_01 {
-    top: 31.5%;
-    left: 19%;
+    top: 2.45rem;
+    left: 1.15rem;
 }
 .g-index .m-content .pannel_02 .list .btn_02 {
-    top: 45.5%;
+	top: 3.55rem;
     left: auto;
-    right: 16.8%;
+    right: 1.04rem;;
 }
 .g-index .m-content .pannel_02 .list .btn_03 {
-    top: auto;
-    bottom: 14%;
-    left: 22.3%;
-    margin-left: 5px;
+	top: auto;
+    bottom: 1.07rem;
+    left: 1.39rem;
 }
 /*  pannel_03  */
 .g-index .m-content .pannel_03 {
     background: #586cfc url(img/pannel_03.png) top center no-repeat;
     background-size: contain;
     margin-top: -1px;
-    padding: 20px 30px 5px;
+    padding: 0.2rem 0.3rem 0.05rem;
 }
 .g-index .m-content .pannel_03 .slist {
     margin-top: 16px;
@@ -256,8 +252,9 @@ img {
 }
 .g-index .m-content .pannel_03 .slist li a {
     position: absolute;
-    top: 46%;
-    right: 14%;
+    top: 0.35rem;
+    right: 0.78rem;
+    z-index: 10;
 }
 /*  pannel_04   */
 .g-index .m-content .pannel_04 {
@@ -269,48 +266,47 @@ img {
 }
 .g-index .m-content .pannel_04 .travel {
     position: relative;
-    margin-top: -5px;
 }
 .g-index .m-content .pannel_04 .travel .btn_01 {
-    top: 35%;
-    left: 18%;
+    top: 3.45rem;
+    left: 1.08rem;
 }
 .g-index .m-content .pannel_04 .travel .btn_02 {
-    top: 25%;
-    right: 17%;
+    top: 2.45rem;
+    right: 1.05rem;
 }
 .g-index .m-content .pannel_04 .travel .btn_03 {
-    top: 69%;
-    left: 18%;
+    top: 6.88rem;
+    left: 1.09rem;
 }
 .g-index .m-content .pannel_04 .travel .btn_04 {
-    top: 58%;
-    right: 18%;
+    top: 5.8rem;
+    right: 1.08rem;
 }
 .g-index .m-content .pannel_04 .travel .btn_05 {
-    bottom: 4%;
-    right: 26.5%;
+    bottom: 0.38rem;
+    right: 1.66rem;
 }
-
 /*  g-footer  */
 .g-index .m-footer {
     background: #566bfa;
     margin-top: -1px;
+    padding-top: 0.1rem;
 }
 .g-index .m-footer .focus {
     text-align: center;
     padding-top: 10px;
 }
 .g-index .m-footer .focus img {
-    width: 105px;
+    width: 1.46rem;
     display: block;
-    margin: 15px auto 5px;
+    margin: 0.3rem auto 0.1rem;
 }
 .g-index .m-footer .focus a {
     background: #fc9d43;
     color: #fff;
-    font-family: pingFang;
-    padding: 0.25rem 0.71875rem;
+	font-family: pingFang;
+    padding: 0.09rem 0.23rem;
     border: 1px solid #fdc28a;
     border-radius: 3px;
 }
@@ -319,7 +315,7 @@ img {
 }
 .g-index .m-footer .attribution li {
     color: #fff;
-    font-size: 0.75rem;
+    font-size: 0.2rem;
     text-align: center;
     line-height: 1.3;
 }
