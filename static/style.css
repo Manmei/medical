@@ -107,7 +107,7 @@ img {
     background-size: cover;
 }
 .g-index .m-content .pannel_01 p img {
-    width: 2.6625rem;
+    width: 2.5625rem;
     vertical-align: 0px;
 }
 .g-index .m-content .pannel p,
@@ -125,6 +125,7 @@ img {
 }
 .g-index .m-content .pannel p.age {
     margin-left: -10px;
+    font-size: 0.75rem;
 }
 .g-index .m-content .pannel p.desc {
     font-size: 0.75rem;
