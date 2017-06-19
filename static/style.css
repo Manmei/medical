@@ -178,6 +178,7 @@ img {
     margin: 0.4375rem 0;
     font-size: 0.22rem;
     font-weight: bold;
+    line-height: 1;
 }
 .g-index .m-content .pannel_01 .list li a:active,
 .g-index .m-content .pannel_01 .list li .active,
@@ -208,7 +209,6 @@ img {
     background: #FFF;
     border: 1px solid #fcaa5b;
     color: #fa912b;
-    padding: 0.11rem 0.29rem;
     padding: 0.09rem 0.22rem;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -216,6 +216,7 @@ img {
     font-family: pingFang;
     font-size: 0.22rem;
     font-weight: bold;
+    line-height: 1;
 }
 .g-index .m-content .pannel_02 .list .btn:active,
 .g-index .m-content .pannel_04 .travel .btn:active {
