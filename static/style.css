@@ -162,6 +162,9 @@ img {
     font-size: 0.24rem;
     font-weight: bold;
 }
+.g-index .m-content .pannel_01 .list li p {
+    padding: 0 0 0.15rem;
+}
 .g-index .m-content .pannel .list li p,
 .g-index .m-content .pannel .list li a {
     font-family: pingFang;
