@@ -31,6 +31,24 @@
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
+    <script type="text/javascript">
+		(function (doc, win) {
+               var docEl = doc.documentElement,
+                   resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                   recalc = function () {
+                       var clientWidth = docEl.clientWidth;
+                       if (!clientWidth) return;
+                       if(clientWidth>=640){
+                           docEl.style.fontSize = '100px';
+                       }else{
+                           docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                       }
+                   };
+               if (!doc.addEventListener) return;
+               win.addEventListener(resizeEvt, recalc, false);
+               doc.addEventListener('DOMContentLoaded', recalc, false);
+           })(document, window);
+    </script>
 
 </head>
 <body>
@@ -64,7 +82,7 @@
             <div class="pannel_02">
                 <div class="pannel">
                     <h3>妈妈专属</h3>
-                    <p class="age">（母婴双重保障）</p>
+                    <p class="age">（ 母婴双重保障 ）</p>
                     <p class="desc">高保额住院保障，作为社保的补充减轻家庭负担。</p>
                 </div>
                 <div class="list">
@@ -77,10 +95,9 @@
 " class="btn btn_03">去看看</a>
                 </div>
             </div>
-
             <div class="pannel pannel_03">
                 <h3>特色医疗</h3>
-                <p class="age">（个性化保障方案）</p>
+                <p class="age">（ 个性化保障方案 ）</p>
                 <p class="desc">1年期高性价比健康险，根据家人身体状况个性投保。</p>
                 <ul class="slist">
                     <li><img src="../static/img/pannel_03_special_01.jpg" alt=""><a href="https://open.zhongan.com/standard/insure/productShowPageMobile.htm?productCode=PRD160514955015&promotionCode=INST170668017004&openOrderNo=P201706131050178090025642036&payChannel=wxpay,alipay&accessChannel=mobile
@@ -95,8 +112,8 @@
             <div class="pannel_02 pannel_04">
                 <div class="pannel">
                     <h3 class="mt15">旅行医疗</h3>
-                    <p class="age">（门急诊 | 住院 | 医疗运送）</p>
-                    <p class="desc">包揽出门旅行多项意外保障，自己放心，家人更放心。</p>
+                    <p class="age">（ 门急诊 | 住院 | 医疗运送 ）</p>
+                    <p class="desc">包揽出门旅行多项意外保障,自己放心,家人更放心。</p>
                 </div>
                 <div class="travel">
                     <img class="pic" src="../static/img/pannel_04_travel.jpg" alt="">
