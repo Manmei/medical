@@ -174,7 +174,7 @@ img {
     background: #FFF;
     border: 1px solid #687aff;
     color: #2e46f0;
-    padding: 0.09rem 0.22rem;
+    padding: 0.09rem 0.19rem;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius:3px;
@@ -212,7 +212,7 @@ img {
     background: #FFF;
     border: 1px solid #fcaa5b;
     color: #fa912b;
-    padding: 0.09rem 0.22rem;
+    padding: 0.09rem 0.19rem;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -227,17 +227,17 @@ img {
     color: #fff;
 }
 .g-index .m-content .pannel_02 .list .btn_01 {
-    top: 2.48rem;
+    top: 2.49rem;
     left: 1.15rem;
 }
 .g-index .m-content .pannel_02 .list .btn_02 {
-	top: 3.6rem;
+    top: 3.62rem;
     left: auto;
-    right: 1.04rem;;
+    right: 1.05rem;
 }
 .g-index .m-content .pannel_02 .list .btn_03 {
 	top: auto;
-    bottom: 1.06rem;
+    bottom: 1.03rem;
     left: 1.39rem;
 }
 /*  pannel_03  */
@@ -272,24 +272,24 @@ img {
     position: relative;
 }
 .g-index .m-content .pannel_04 .travel .btn_01 {
-    top: 3.51rem;
+    top: 3.52rem;
     left: 1.07rem;
 }
 .g-index .m-content .pannel_04 .travel .btn_02 {
-    top: 2.52rem;
+    top: 2.53rem;
     right: 1.05rem;
 }
 .g-index .m-content .pannel_04 .travel .btn_03 {
-    top: 6.94rem;
-    left: 1.09rem;
+    top: 6.95rem;
+    left: 1.11rem;
 }
 .g-index .m-content .pannel_04 .travel .btn_04 {
-    top: 5.86rem;
+    top: 5.87rem;
     right: 1.08rem;
 }
 .g-index .m-content .pannel_04 .travel .btn_05 {
-    bottom: 0.38rem;
-    right: 1.66rem;
+    bottom: 0.37rem;
+    right: 1.68rem;
 }
 /*  g-footer  */
 .g-index .m-footer {
