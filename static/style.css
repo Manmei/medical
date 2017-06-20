@@ -118,7 +118,7 @@ img {
 .g-index .m-content .pannel h3 {
     font-size: 0.34rem;
     font-weight: bold;
-    margin-top: 0.15rem;
+    margin-top: 0.08rem;
 }
 .g-index .m-content .pannel p {
     font-family: pingFang;
@@ -201,7 +201,7 @@ img {
 }
 .g-index .m-content .pannel_02 .pannel {
     background: #ff9e40;
-    padding: 0.2rem 0.3rem 0.01rem;
+    padding: 0.1rem 0.3rem 0.01rem;
 }
 .g-index .m-content .pannel_02 .list .btn,
 .g-index .m-content .pannel_04 .travel .btn {
