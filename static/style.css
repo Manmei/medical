@@ -15,13 +15,6 @@ a,body,button,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,hr,input,label,li,ol,p,select,
     letter-spacing: 1px;
     -webkit-text-size-adjust:100%;
 }
-body {
-    text-align: left;
-    font-family: Arial,Helvetica,sans-serif,"Hiragino Sans GB";
-    background-color: #FFF;
-    font-size-adjust: none;
-    -webkit-text-size-adjust: none
-}
 ul,li,dl,dt,dd {
     list-style: none
 }
@@ -87,11 +80,6 @@ img {
 .mt50 {
     margin-top: 50px;
 }
-@font-face
-{
-    font-family: pingFang;
-    src: url('PingFang-SC-Regular.otf');
-}
 /*  m-banner  */
 .g-index .m-banner {
     margin-bottom: -1px;
@@ -113,7 +101,7 @@ img {
 .g-index .m-content .pannel p,
 .g-index .m-content .pannel h3 {
     color: #fff;
-    font-family: pingFang;
+    font-family:"Microsoft Yahei"
 }
 .g-index .m-content .pannel h3 {
     font-size: 0.34rem;
@@ -121,7 +109,7 @@ img {
     margin-top: 0.08rem;
 }
 .g-index .m-content .pannel p {
-    font-family: pingFang;
+    font-family:"Microsoft Yahei";
     margin: 0.15rem 0 0.14rem;
     font-weight: 100;
 }
@@ -160,18 +148,18 @@ img {
     font-weight: bold;
 }
 .g-index .m-content .pannel_01 .list li p {
-    padding: 0 0 0.15rem;
+    padding: 0 0 0.1rem;
 }
 .g-index .m-content .pannel .list li p,
 .g-index .m-content .pannel .list li a {
-    font-family: pingFang;
+    font-family:"Microsoft Yahei"
 }
 .g-index .m-content .pannel_01 .list li a,
 .g-index .m-content .pannel_03 .slist li a {
     background: #FFF;
     border: 1px solid #687aff;
     color: #2e46f0;
-    padding: 0.09rem 0.19rem;
+    padding: 0.08rem 0.15rem;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius:3px;
@@ -209,12 +197,12 @@ img {
     background: #FFF;
     border: 1px solid #fcaa5b;
     color: #fa912b;
-    padding: 0.09rem 0.19rem;
+    padding: 0.08rem 0.15rem;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    font-family: pingFang;
-    font-size: 0.22rem;
+    font-family:"Microsoft Yahei";
+    font-size: 0.2rem;
     font-weight: bold;
     line-height: 1;
 }
@@ -225,17 +213,17 @@ img {
 }
 .g-index .m-content .pannel_02 .list .btn_01 {
     top: 2.49rem;
-    left: 1.15rem;
+	left: 1.22rem;
 }
 .g-index .m-content .pannel_02 .list .btn_02 {
     top: 3.62rem;
     left: auto;
-    right: 1.05rem;
+    right: 1.08rem;
 }
 .g-index .m-content .pannel_02 .list .btn_03 {
 	top: auto;
-    bottom: 1.03rem;
-    left: 1.39rem;
+	bottom: 1.05rem;
+    left: 1.45rem;
 }
 /*  pannel_03  */
 .g-index .m-content .pannel_03 {
@@ -254,8 +242,8 @@ img {
 }
 .g-index .m-content .pannel_03 .slist li a {
     position: absolute;
-    top: 0.35rem;
-    right: 0.83rem;
+	top: 0.39rem;
+    right: 0.84rem;
     z-index: 10;
 }
 /*  pannel_04   */
@@ -273,24 +261,24 @@ img {
     position: relative;
 }
 .g-index .m-content .pannel_04 .travel .btn_01 {
-    top: 3.52rem;
-    left: 1.07rem;
+    top: 3.5rem;
+    left: 1.16rem;
 }
 .g-index .m-content .pannel_04 .travel .btn_02 {
     top: 2.53rem;
-    right: 1.05rem;
+    right: 1.1rem;
 }
 .g-index .m-content .pannel_04 .travel .btn_03 {
-    top: 6.95rem;
-    left: 1.11rem;
+    top: 6.92rem;
+	left: 1.15rem;
 }
 .g-index .m-content .pannel_04 .travel .btn_04 {
-    top: 5.87rem;
-    right: 1.08rem;
+	top: 5.83rem;
+    right: 1.13rem;
 }
 .g-index .m-content .pannel_04 .travel .btn_05 {
     bottom: 0.37rem;
-    right: 1.68rem;
+    right: 1.7rem;
 }
 /*  g-footer  */
 .g-index .m-footer {
@@ -314,13 +302,15 @@ img {
     padding: 0.09rem 0.23rem;
     border: 1px solid #fdc28a;
     border-radius: 3px;
+	font-size: 0.28rem;
 }
 .g-index .m-footer .attribution {
     padding: 12px 40px;
 }
 .g-index .m-footer .attribution li {
     color: #fff;
-    font-size: 0.2rem;
+	font-size: 0.12rem;
     text-align: center;
     line-height: 1.4;
+    margin-bottom: 0.1rem;
 }

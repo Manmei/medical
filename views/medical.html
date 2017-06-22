@@ -23,43 +23,24 @@
     <meta name="Description" content="上有老下有小，没有一份医疗险怎么行？">
     <!--<meta name="sharecontent" data-msg-img="https://manmei.github.io/medical/static/img/120.png" data-msg-title="涨姿势！这些医疗险更适合你！" data-msg-content="上有老下有小，没有一份医疗险怎么行？" data-msg-callBack="" data-line-img="https://manmei.github.io/medical/static/img/120.png" data-line-title="涨姿势！这些医疗险更适合你！" data-line-callBack=""/>-->
     <link rel="stylesheet" href="../static/style.css">
-    <script type="text/javascript" src="../static/index.js"></script>
     <script type="text/javascript">
-        var tit = $('#wx-title').val(); //标题
-        var img = $('#wx-img').val(); //图片
-        var con = $('#wx-con').val(); //简介
-        var link = $('#wx-link').val(); //链接
-        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
-// 发送给好友
-            WeixinJSBridge.on('menu:share:appmessage', function (argv) {
-                WeixinJSBridge.invoke('sendAppMessage', {
-                    "appid": "123",
-                    "img_url": img,
-                    "img_width": "160",
-                    "img_height": "160",
-                    "link": link,
-                    "desc": con,
-                    "title": tit
-                }, function (res) {
-                    _report('send_msg', res.err_msg);
-                })
-            });
-
-// 分享到朋友圈
-            WeixinJSBridge.on('menu:share:timeline', function (argv) {
-                WeixinJSBridge.invoke('shareTimeline', {
-                    "img_url": img,
-                    "img_width": "160",
-                    "img_height": "160",
-                    "link": link,
-                    "desc": con,
-                    "title": tit
-                }, function (res) {
-                    _report('timeline', res.err_msg);
-                });
-            });
-        }, false)
-    </script>
+		(function (doc, win) {
+			var docEl = doc.documentElement,
+				resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+				recalc = function () {
+					var clientWidth = docEl.clientWidth;
+					if (!clientWidth) return;
+					if(clientWidth>=640){
+						docEl.style.fontSize = '100px';
+					}else{
+						docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+					}
+				};
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false);
+			doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+	</script>
     <!--百度统计代码-->
     <script type="text/javascript">
         var _hmt = _hmt || [];
@@ -86,7 +67,7 @@
         <div class="m-content">
             <div class="pannel pannel_01">
                 <h3>百万住院医疗</h3>
-                <p class="age">(<img src="../static/img/age60.png" alt="">)岁</p>
+                <p class="age">(0~60)岁</p>
                 <p class="desc">高保额住院保障，作为社保的补充减轻家庭负担。</p>
                 <div class="list">
                     <ul class="f-cb">
@@ -170,13 +151,5 @@
             </ul>
         </div>
     </section>
-    <script src="../static/jquery-3.1.1.min.js" type="text/javascript"></script>
-    <script>
-        $(function () {
-            $(".pannel_01 .list li a button").on("touchstart", function () {
-                $(this).addClass("active");
-            });
-        })
-    </script>
 </body>
 </html>
