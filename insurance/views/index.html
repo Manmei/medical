@@ -140,7 +140,7 @@
                 var index = $(this).index();
                 $('#popup .child p').text(title[index]);
                 $("#i_type").attr("src","../static/img/"+img_url[index]+".jpg");
-                $('#popup').fadeIn();
+                $('#popup').fadeIn(1000);
             });
             $('#pop_close').on('click',function () {
                 $('#popup').fadeOut();
