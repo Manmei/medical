@@ -350,6 +350,7 @@ table{
     margin-right: 35px;
     line-height: 0.48rem;
     padding-bottom: 0.08rem;
+    cursor: pointer;
 }
 .g-index .m-container .nav .active {
     color: #393939;
@@ -420,15 +421,73 @@ table{
 .g-index .m-container .content .con_list li .flex:not(:last-child) {
     padding-top: 0.03rem
 }
-.g-index .m-container .content .con_list table {
-    width: 100%;
-}
-.g-index .m-container .content .con_list table td {
-    border: 1px solid #eee;
-    width: 33.33333%
-}
-.g-index .m-container .content .con_list table {
+
+.g-index .m-container .content .con_list .app_list li {
+    border: 0.01rem solid #f9f9f9;
+    float: left;
+    padding: 0;
     display: block;
+}
+.g-index .m-container .content .con_list .app_list li a {
+    display: block;
+}
+.g-index .m-container .content .con_list .app_list li a img {
+    width: 1.81rem;
+}
+
+.m-popup {
+    position: relative;
+    z-index: 10;
+}
+.m-popup .layershade,
+.m-popup .layer_con {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.m-popup .layershade {
+    background: rgba(0,0,0,0.4);
+}
+.m-popup .layer_con {
+    display: table;
+}
+.m-popup .layer_con .type_box {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.m-popup .layer_con .type_box .child {
+    position: relative;
+    width: 4.7rem;
+    background: #fff;
+    border-radius: 5px;
+    padding: 0.22rem 0.22rem 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.m-popup .layer_con .type_box .child img {
+    width: 4.3rem;
+    padding-bottom: 0.1rem;
+    border-bottom: 1px solid #e9e9e9;
+}
+.m-popup .layer_con .type_box .child p {
+    color: #626262;
+    font-size: 0.24rem;
+    line-height: 0.5rem;
+    margin-top: 0.05rem;
+}
+.m-popup .layer_con .type_box .child a {
+    display: block;
+    position: absolute;
+    bottom: -0.96rem;
+    left: 50%;
+    margin-left: -0.25rem;
+}
+.m-popup .layer_con .type_box .child a img {
+    width: 0.51rem;
+    border: none;
 }
 
 .g-index .m-footer {
