@@ -7,7 +7,7 @@
     <!-- WebApp全屏模式   隐藏地址栏-->
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="black" name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta content="telephone=nom,email=no" name="format-detection">
+    <meta content="telephone=no,email=no" name="format-detection">
     <!--禁止百度转码显示-->
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <meta name="keywords" content="自主理赔" />
@@ -133,7 +133,6 @@
     <script type="text/javascript" src="../static/jquery-2.1.1.min.js"></script>
     <script type="text/javascript">
         $(function () {
-
             //弹窗
             $('#app_list li:not(:last)').on('click',function () {
                 var title =['仅限车险','仅限医疗理赔','不限险种','仅限车险','支持车险及寿险'];
@@ -146,7 +145,6 @@
             $('#pop_close').on('click',function () {
                 $('#popup').fadeOut();
             })
-
             //切换
             $('.m-container .nav li').on('click',function () {
                 var index = $(this).index();
