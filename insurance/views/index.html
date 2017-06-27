@@ -99,13 +99,13 @@
                     </ul>
                 </div>
                 <div class="con_list" style="display: none;">
-                    <ul class="app_list f-cb">
-                        <li><a href=""><img src="../static/img/f_lofo_01.jpg" alt=""></a></li>
-                        <li><a href=""><img src="../static/img/f_lofo_02.jpg" alt=""></a></li>
-                        <li><a href=""><img src="../static/img/f_lofo_03.jpg" alt=""></a></li>
-                        <li><a href=""><img src="../static/img/f_lofo_04.jpg" alt=""></a></li>
-                        <li><a href=""><img src="../static/img/f_lofo_05.jpg" alt=""></a></li>
-                        <li><a href=""><img src="" alt=""></a></li>
+                    <ul id="app_list" class="app_list f-cb">
+                        <li><a href="javascript:;"><img src="../static/img/f_lofo_01.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="../static/img/f_lofo_02.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="../static/img/f_lofo_03.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="../static/img/f_lofo_04.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="../static/img/f_lofo_05.jpg" alt=""></a></li>
+                        <li><a href="javascript:;"><img src="../static/img/f_lofo_06.png" alt=""></a></li>
                     </ul>
                 </div>
             </div>
@@ -117,14 +117,14 @@
                 <li>技术支持由新疆益盛鑫网络科技有限公司提供</li>
             </ul>
         </div>
-        <div class="m-popup" style="display: none;">
+        <div id="popup" class="m-popup" style="display: none;">
             <div class="layershade"></div>
             <div class="layer_con">
                 <div class="type_box">
                     <div class="child">
-                        <img src="../static/img/pop_china.jpg" alt="">
+                        <img id="i_type" src="../static/img/pop_01.jpg" alt="">
                         <p>仅限车险</p>
-                        <a class="pop_close" href="javascript:;"><img src="../static/img/close.png" alt=""></a>
+                        <a id="pop_close" href="javascript:;"><img src="../static/img/close.png" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -132,12 +132,24 @@
     </section>
     <script type="text/javascript">
         $(function () {
+
             //弹窗
+            $('#app_list li').on('click',function () {
+                var title =['仅限车险','仅限医疗理赔','不限险种','仅限车险','支持车险及寿险'];
+                var img_url = ['pop_01','pop_02','pop_03','pop_04','pop_05'];
+                var index = $(this).index();
+                $('#popup .child p').text(title[index]);
+                $("#i_type").attr("src","../static/img/"+img_url[index]+".jpg");
+                $('#popup').fadeIn();
+            });
+            $('#pop_close').on('click',function () {
+                $('#popup').fadeOut();
+            })
+
+            //切换
             $('.m-container .nav li').on('click',function () {
                 var index = $(this).index();
                 var width = $(this).width()+ 35;
-                console.log(index);
-                console.log(width);
                 $(this).addClass('active').siblings().removeClass('active');
                 $('.m-container .nav p').stop(false,true).animate({'left':index*width +'px'},300)
                 $('.m-container .content .con_list').eq(index).fadeIn(200).siblings().hide();

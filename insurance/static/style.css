@@ -378,7 +378,7 @@ table{
     margin-top: -0.05rem;
     border-style: solid dashed dashed dashed;
     border-width: 0.09rem;
-    border-color: #fff #fff #fc7a1b #fff;
+    border-color: transparent transparent #fc7a1b transparent;
     overflow: hidden;
     zoom: 1;
     font-size: 0;
@@ -427,9 +427,11 @@ table{
     float: left;
     padding: 0;
     display: block;
+    cursor: pointer;
 }
 .g-index .m-container .content .con_list .app_list li a {
     display: block;
+    cursor: pointer;
 }
 .g-index .m-container .content .con_list .app_list li a img {
     width: 1.81rem;
@@ -452,6 +454,7 @@ table{
 }
 .m-popup .layer_con {
     display: table;
+    z-index: 100;
 }
 .m-popup .layer_con .type_box {
     display: table-cell;
@@ -484,6 +487,7 @@ table{
     bottom: -0.96rem;
     left: 50%;
     margin-left: -0.25rem;
+    cursor: pointer;
 }
 .m-popup .layer_con .type_box .child a img {
     width: 0.51rem;
