@@ -15,6 +15,16 @@
     <script type="text/javascript" src="../static/common.js"></script>
     <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="../static/style.css">
+    <!--百度统计代码-->
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?a7b64a3f4b23f48a61ea0fd37413ba54";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
 </head>
 <body class="bg_f0">
     <section class="g-index">
@@ -89,18 +99,14 @@
                     </ul>
                 </div>
                 <div class="con_list">
-                    <table>
-                        <tr>
-                            <td><a href=""><img src="../static/img/f_lofo_01.jpg" alt=""></a></td>
-                            <td><a href=""><img src="../static/img/f_lofo_02.jpg" alt=""></a></td>
-                            <td><a href=""><img src="../static/img/f_lofo_03.jpg" alt=""></a></td>
-                        </tr>
-                        <tr>
-                            <td><a href=""><img src="../static/img/f_lofo_04.jpg" alt=""></a></td>
-                            <td><a href=""><img src="../static/img/f_lofo_05.jpg" alt=""></a></td>
-                            <td><a href=""></a></td>
-                        </tr>
-                    </table>
+                    <ul class="app_list f-cb">
+                        <li><a href=""><img src="../static/img/f_lofo_01.jpg" alt=""></a></li>
+                        <li><a href=""><img src="../static/img/f_lofo_02.jpg" alt=""></a></li>
+                        <li><a href=""><img src="../static/img/f_lofo_03.jpg" alt=""></a></li>
+                        <li><a href=""><img src="../static/img/f_lofo_04.jpg" alt=""></a></li>
+                        <li><a href=""><img src="../static/img/f_lofo_05.jpg" alt=""></a></li>
+                        <li><a href=""><img src="" alt=""></a></li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -111,6 +117,32 @@
                 <li>技术支持由新疆益盛鑫网络科技有限公司提供</li>
             </ul>
         </div>
+        <div class="m-popup" style="display: none;">
+            <div class="layershade"></div>
+            <div class="layer_con">
+                <div class="type_box">
+                    <div class="child">
+                        <img src="../static/img/pop_china.jpg" alt="">
+                        <p>仅限车险</p>
+                        <a class="pop_close" href="javascript:;"><img src="../static/img/close.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <script type="text/javascript">
+        $(function () {
+            //弹窗
+            $('.m-container .nav li').on('click',function () {
+                var index = $(this).index();
+                var width = $(this).width()+ 35;
+                console.log(index);
+                console.log(width);
+                $(this).addClass('active').siblings().removeClass('active');
+                $('.m-container .nav p').stop(false,true).animate({'left':index*width +'px'},300)
+                $('.m-container .content .con_list').eq(index).fadeIn(200).siblings().hide();
+            })
+        })
+    </script>
 </body>
 </html>
