@@ -469,6 +469,7 @@ table{
     padding: 0.22rem 0.22rem 0;
     box-sizing: border-box;
     margin: 0 auto;
+    margin-top: -1rem;
 }
 .m-popup .layer_con .type_box .child img {
     width: 4.3rem;
