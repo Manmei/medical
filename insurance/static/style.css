@@ -17,7 +17,7 @@ a,body,button,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,hr,input,label,li,ol,p,select,
     -webkit-text-size-adjust:100%;
 }
 h1,h2,h3,h4,h5 {
-    font-weight: 500;
+    font-weight: bold;
     font-size: 1rem;
 }
 ol,ul,li {
@@ -352,7 +352,7 @@ table{
     line-height: 0.48rem;
     padding-bottom: 0.08rem;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: bold;
 }
 .g-index .m-container .nav .active {
     color: #393939;
@@ -390,7 +390,7 @@ table{
 }
 .g-index .m-container .content .con_list li {
     display: -webkit-box;
-    padding: 0.22rem 0.2rem 0.24rem;
+    padding: 0.22rem 0.2rem 0.24rem 0;
     border-bottom: 1px solid #dfdfdf;
 }
 .g-index .m-container .content .con_list li:last-child {
