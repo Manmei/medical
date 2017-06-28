@@ -371,14 +371,14 @@ table{
 }
 .g-index .m-container .nav p b {
     position: absolute;
-    bottom: 0.05rem;
+    bottom: 0.04rem;
     left: 50%;
     margin-left: -0.045rem;
     display: inline-block;
     width: 0;
     height: 0;
     margin-top: -0.05rem;
-    border-style: solid dashed dashed dashed;
+    border-style: dashed dashed solid dashed;
     border-width: 0.09rem;
     border-color: transparent transparent #fc7a1b transparent;
     overflow: hidden;
