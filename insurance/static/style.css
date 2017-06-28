@@ -302,6 +302,7 @@ table{
 .g-index .m-header .m-claims p {
     font-size: 0.28rem;
     color: #393939;
+    font-weight: bold;
 }
 .g-index .m-header .m-claims table {
     width: 100%;
@@ -351,6 +352,7 @@ table{
     line-height: 0.48rem;
     padding-bottom: 0.08rem;
     cursor: pointer;
+    font-weight: bold;
 }
 .g-index .m-container .nav .active {
     color: #393939;
