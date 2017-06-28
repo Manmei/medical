@@ -302,7 +302,7 @@ table{
 .g-index .m-header .m-claims p {
     font-size: 0.28rem;
     color: #393939;
-    font-weight: 500;
+    font-weight: bold;
 }
 .g-index .m-header .m-claims table {
     width: 100%;
@@ -317,6 +317,7 @@ table{
     font-size: 0.2rem;
     color: #868686;
     margin-top: 0.15rem;
+    font-weight: normal;
 }
 .g-index .m-header .m-claims table tr td {
     position: relative;
@@ -390,7 +391,7 @@ table{
 }
 .g-index .m-container .content .con_list li {
     display: -webkit-box;
-    padding: 0.22rem 0.2rem 0.24rem 0;
+    padding: 0.22rem 0.2rem 0.24rem;
     border-bottom: 1px solid #dfdfdf;
 }
 .g-index .m-container .content .con_list li:last-child {
