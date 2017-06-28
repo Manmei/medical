@@ -144,7 +144,7 @@
             });
             $('#pop_close').on('click',function () {
                 $('#popup').fadeOut();
-            })
+            });
             //切换
             $('.m-container .nav li').on('click',function () {
                 var index = $(this).index();
@@ -152,7 +152,7 @@
                 $(this).addClass('active').siblings().removeClass('active');
                 $('.m-container .nav p').stop(false,true).animate({'left':index*width +'px'},300)
                 $('.m-container .content .con_list').eq(index).fadeIn(200).siblings().hide();
-            })
+            });
         })
     </script>
 </body>
