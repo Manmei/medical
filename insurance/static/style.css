@@ -332,7 +332,7 @@ table{
     margin: -0.25rem -0.18rem;
     background: url(img/i_process_next.png) no-repeat;
     background-size: cover;
-    width: 0.32rem;
+    width: 0.35rem;
     height: 0.13rem;
 }
 .g-index .m-header .m-claims table tr td:nth-child(2)::after {
