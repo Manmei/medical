@@ -12,11 +12,8 @@
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <meta name="keywords" content="自助理赔" />
     <meta name="description" content="自助理赔"/>
-    <meta name="x5-fullscreen" content="true">
-    <meta name="full-screen" content="yes">
     <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="../static/style.css">
-    <!--百度统计代码-->
 	<script type="text/javascript">
 		(function (doc, win) {
 			var docEl = doc.documentElement,
@@ -34,7 +31,11 @@
 			win.addEventListener(resizeEvt, recalc, false);
 			doc.addEventListener('DOMContentLoaded', recalc, false);
 		})(document, window);
+        document.querySelector('body').addEventListener('touchstart', function (ev) {
+            event.preventDefault();
+        });
 	</script>
+    <!--百度统计代码-->
     <script type="text/javascript">
         var _hmt = _hmt || [];
         (function() {
