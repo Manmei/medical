@@ -148,6 +148,7 @@
         </div>
     </section>
     <script type="text/javascript" src="../static/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/fastclick/1.0.6/fastclick.js"></script>
     <script type="text/javascript">
         $(function () {
             //弹窗
@@ -171,28 +172,11 @@
                 $('.m-container .content .con_list').eq(index).fadeIn(200).siblings().hide();
             });
         })
-        (function()
-        {
-            var agent = navigator.userAgent.toLowerCase();        //检测是否是ios
-            var iLastTouch = null;                                //缓存上一次tap的时间
-            if (agent.indexOf('iphone') >= 0 || agent.indexOf('ipad') >= 0)
-            {
-                document.body.addEventListener('touchend', function(event)
-                {
-                    var iNow = new Date()
-                        .getTime();
-                    iLastTouch = iLastTouch || iNow + 1 /** 第一次时将iLastTouch设为当前时间+1 */ ;
-                    var delta = iNow - iLastTouch;
-                    if (delta < 500 && delta > 0)
-                    {
-                        event.preventDefault();
-                        return false;
-                    }
-                    iLastTouch = iNow;
-                }, false);
-            }
-
-        })();
+    </script>
+    <script>
+        $(function() {
+            FastClick.attach(document.body);
+        });
     </script>
 </body>
 </html>
