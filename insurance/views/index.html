@@ -12,11 +12,30 @@
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <meta name="keywords" content="自助理赔" />
     <meta name="description" content="自助理赔"/>
-    <script type="text/javascript" src="../static/common.js"></script>
+    <meta name="x5-fullscreen" content="true">
+    <meta name="full-screen" content="yes">
     <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet" href="../static/style.css">
     <!--百度统计代码-->
-    <script>
+	<script type="text/javascript">
+		(function (doc, win) {
+			var docEl = doc.documentElement,
+				resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+				recalc = function () {
+					var clientWidth = docEl.clientWidth;
+					if (!clientWidth) return;
+					if(clientWidth>=640){
+						docEl.style.fontSize = '100px';
+					}else{
+						docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+					}
+				};
+			if (!doc.addEventListener) return;
+			win.addEventListener(resizeEvt, recalc, false);
+			doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+	</script>
+    <script type="text/javascript">
         var _hmt = _hmt || [];
         (function() {
             var hm = document.createElement("script");
@@ -52,33 +71,33 @@
                 <div class="con_list">
                     <ul>
                         <li>
-                            <div class="flex">中华保险 &nbsp;&nbsp;</div>
+                            <div class="flex">&nbsp;中华保险&nbsp;</div>
                             <div class="flex">&nbsp;95518</div>
                             <div class="flex"><a href="tel:95518">我要报案</a></div>
                         </li>
                         <li>
-                            <div class="flex">中国人保&nbsp;&nbsp;</div>
+                            <div class="flex">&nbsp;中国人保&nbsp;</div>
                             <div class="flex">&nbsp;95585</div>
                             <div class="flex"><a href="tel:95585">我要报案</a></div>
                         </li>
                         <li>
-                            <div class="flex">中国平安&nbsp;&nbsp;</div>
+                            <div class="flex">&nbsp;中国平安&nbsp;</div>
                             <div class="flex">&nbsp;95511</div>
                             <div class="flex"><a href="tel:95511">我要报案</a></div>
                         </li>
                         <li>
-                            <div class="flex">众安保险&nbsp;&nbsp;</div>
+                            <div class="flex">&nbsp;众安保险&nbsp;</div>
                             <div class="flex">1010-9955</div>
                             <div class="flex"><a href="tel:1010-9955">我要报案</a></div>
                         </li>
                         <li>
-                            <div class="flex">中国人寿 &nbsp;&nbsp;</div>
+                            <div class="flex">&nbsp;中国人寿&nbsp;</div>
                             <div class="flex">&nbsp;95519</div>
                             <div class="flex"><a href="tel:95519">我要报案</a></div>
                         </li>
                         <li>
                             <div class="flex">太平洋保险</div>
-                            <div class="flex">&nbsp;95500</div>
+                            <div class="flex">95500</div>
                             <div class="flex"><a href="tel:95500">我要报案</a></div>
                         </li>
                         <li>
@@ -87,12 +106,12 @@
                             <div class="flex"><a href="tel:400-990-9999">我要报案</a></div>
                         </li>
                         <li>
-                            <div class="flex">紫金保险&nbsp;&nbsp;</div>
+                            <div class="flex">&nbsp;紫金保险&nbsp;</div>
                             <div class="flex">&nbsp;&nbsp;95312</div>
                             <div class="flex"><a href="tel:95312">我要报案</a></div>
                         </li>
                         <li>
-                            <div class="flex">富德保险&nbsp;&nbsp;</div>
+                            <div class="flex">&nbsp;富德保险&nbsp;</div>
                             <div class="flex">400-669-5535</div>
                             <div class="flex"><a href="tel:400-669-5535">我要报案</a></div>
                         </li>
