@@ -300,13 +300,13 @@ table{
     margin-top: 0.3rem;
 }
 .g-travel_index .g-title img {
-    width: 5rem;
+    width: 4.9rem;
 }
 .g-travel_index .g-type {
-    margin-top: 4rem;
+    margin-top: 3.35rem;
 }
 .g-travel_index .g-type ul {
-    padding: 0 0.525rem;
+    padding: 0 0.77rem;
 }
 .g-travel_index .g-type ul li,
 .g-travel_pannel .m-container ul li {
@@ -321,7 +321,7 @@ table{
     display: block;
 }
 .g-travel_index .g-type li img {
-    width: 2.44rem;
+    width: 2.2rem;
 }
 .g-travel_index .g-type li p {
     color: #2a0001;
