@@ -80,11 +80,6 @@ table{
     pointer-events: none;
 }
 
-/*.icon*/
-.icon {
-    background: url(img/icon.png) no-repeat;
-}
-
 /* 布局 */
 .w1200{
     margin: 0 auto;
@@ -286,7 +281,7 @@ table{
 
 /*  travel-index-page  */
 .travel_bg {
-    background: url(img/travel_bg.png) no-repeat;
+    background: url(img/travel_bg.png) top center no-repeat;
     background-size: cover;
 }
 .g-travel_index .g-logo img,
