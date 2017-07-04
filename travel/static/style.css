@@ -357,10 +357,10 @@ table{
 /*  travel in  */
 .g-travel_pannel .m-header {
     padding: 1rem 0.8rem 0.45rem;
+    margin-bottom: -1px;
 }
 .g-travel_out .m-header {
     background-color: #f9b274;
-    margin-bottom: -1px;
 }
 .g-travel_in .m-header {
     background-color: #8c90fe;
