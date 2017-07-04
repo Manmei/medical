@@ -351,7 +351,7 @@ table{
 
 /*  travel in  */
 .g-travel_pannel .m-header {
-    padding: 1rem 0.8rem 0.45rem;
+    padding: 0.5rem 0.8rem 0.45rem;
     margin-bottom: -1px;
 }
 .g-travel_out .m-header {
