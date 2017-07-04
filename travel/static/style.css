@@ -391,7 +391,7 @@ table{
 /*  travel in team   */
 .g-travel_list .m-list {
     padding: 0.18rem;
-    min-height: 5.2rem;
+    min-height: 5rem;
 }
 .g-travel_list .m-list li {
     background-color: #fff;
