@@ -359,7 +359,8 @@ table{
     padding: 1rem 0.8rem 0.45rem;
 }
 .g-travel_out .m-header {
-    background-color: #f9b274
+    background-color: #f9b274;
+    margin-bottom: -1px;
 }
 .g-travel_in .m-header {
     background-color: #8c90fe;
