@@ -368,6 +368,7 @@ table{
 }
 .g-accident .m-footer {
     padding: 0.1rem 0 0.2rem;
+    margin-top: 0.25rem;
 }
 .g-accident .m-footer .focus a {
     background: #fc9d43;
