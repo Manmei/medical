@@ -169,51 +169,45 @@
 <script type="text/javascript">
     $(function () {
         function doTab(arr) {
-            $('#list li').show()
+            $('#list li').show();
             $('#list li').each(function () {
                 for (var i = 0; i < arr.length; i++) {
                     if (!$(this).hasClass(arr[i])) {
-                        $(this).hide()
-                        return
+                        $(this).hide();
+                        return;
                     }
-                    $(this).show()
+                    $(this).show();
                 }
             })
         }
 
-        var selectTab = []
+        var selectTab = [];
         $('.nav_list a').on('click', function () {
             //选项切换\
             if ($(this).hasClass('active')) {
                 if ($(this).hasClass('all')) {
-                    selectTab = []
+                    selectTab = [];
                 }
-                $(this).removeClass("active")
-                selectTab.splice(selectTab.indexOf($(this).attr('class')), 1)
+                $(this).removeClass("active");
+                selectTab.splice(selectTab.indexOf($(this).attr('class')), 1);
                 doTab(selectTab)
-
             } else {
                 if ($('.nav_list .all').hasClass('active')) {
-                    $('.nav_list  a').removeClass("active")
+                    $('.nav_list  a').removeClass("active");
                     selectTab = [];
                 }
                 if ($(this).hasClass('all')) {
-                    selectTab = ['sgsc', 'ylbc', 'zyjt', 'stc', 'jhc', 'jxb']
-                    $('.nav_list  a:not(".all")').removeClass("active")
+                    selectTab = ['sgsc', 'ylbc', 'zyjt', 'stc', 'jhc', 'jxb'];
+                    $('.nav_list  a:not(".all")').removeClass("active");
                 }
-                selectTab.push($(this).attr('class'))
-                doTab(selectTab)
-                $(this).addClass("active")
+                selectTab.push($(this).attr('class'));
+                doTab(selectTab);
+                $(this).addClass("active");
                 if ($('.nav_list a:not(".all").active').length == 7) {
-                    $('.nav_list a').removeClass("active")
-                    $('.nav_list .all').addClass("active")
+                    $('.nav_list a').removeClass("active");
+                    $('.nav_list .all').addClass("active");
                 }
-
-
             }
-
-
-            //
         })
     })
 </script>
