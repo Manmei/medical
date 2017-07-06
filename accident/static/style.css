@@ -345,6 +345,7 @@ table{
 .g-accident .m-content .list {
     padding: 0 0.15rem;
     margin-top: 0.15rem;
+    min-height: 3rem;
 }
 .g-accident .m-content .list li {
     background: #fff;
