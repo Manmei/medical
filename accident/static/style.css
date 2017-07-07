@@ -341,6 +341,7 @@ table{
 .g-accident .m-content .tab_nav .nav_list a.active {
     background: linear-gradient(to right,#fcc530,#fab125);
     color: #fff;
+    font-weight: bold;
 }
 .g-accident .m-content .list {
     padding: 0 0.15rem;
@@ -358,14 +359,14 @@ table{
 .g-accident .m-content .list li a p {
     padding: 0.2rem 0.35rem;
     font-size: 0.26rem;
-    font-weight: 500;
+    font-weight: bold;
     color: #39383c;
 }
 .g-accident .m-content .list li a p strong {
     color: #ff2e2e;
     font-size: 0.36rem;
     margin-top: -0.06rem;
-    font-weight: normal;
+    font-weight: bold;
 }
 .g-accident .m-footer {
     padding: 0.1rem 0 0.2rem;
