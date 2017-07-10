@@ -310,6 +310,8 @@ table{
     font-size: 0.26rem;
     color: #39383c;
     padding-left: 0.17rem;
+    font-weight: bold;
+    letter-spacing: 0;
 }
 .g-accident .m-content .tab_nav p:before {
     position: absolute;
