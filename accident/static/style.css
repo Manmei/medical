@@ -327,10 +327,11 @@ table{
 }
 .g-accident .m-content .tab_nav .nav_list {
     margin-top: 0.25rem;
+    font-size: 0;
 }
 .g-accident .m-content .tab_nav .nav_list a {
     display: inline-block;
-    padding: 0.08rem 0.1333rem;
+    padding: 0.08rem 0.16rem;
     margin: 0 0.05rem 0.2rem 0;
     background: #efefef;
     border-radius: 1rem;
