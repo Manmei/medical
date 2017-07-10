@@ -173,7 +173,7 @@
             $('#list li').show();
             $('#list li').each(function () {
                 for (var i = 0; i < arr.length; i++) {
-                    console.log(arr[i]);
+                    console.log(arr[i].length);
                     if (!$(this).hasClass(arr[i])) {
                         $(this).hide();
                         return;
@@ -218,7 +218,7 @@
                     $('.nav_list a').removeClass("active");
                     $('.nav_list .all').addClass("active");
 
-                    
+
                     selectTab = ['sgsc', 'ylbc', 'zyjt', 'stc', 'jhc', 'jxb'];
                     doTab(selectTab);
                 }
