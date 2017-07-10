@@ -169,11 +169,11 @@
 <script type="text/javascript">
     $(function () {
         function doTab(arr) {
-            console.log(arr);
+            console.log(arr.length);
             $('#list li').show();
             $('#list li').each(function () {
                 for (var i = 0; i < arr.length; i++) {
-                    console.log(arr[i].length);
+                    console.log(arr[i]);
                     if (!$(this).hasClass(arr[i])) {
                         $(this).hide();
                         return;
