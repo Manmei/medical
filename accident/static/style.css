@@ -369,6 +369,7 @@ table{
     font-size: 0.36rem;
     margin-top: -0.06rem;
     font-weight: bold;
+    letter-spacing: 0;
 }
 .g-accident .m-footer {
     padding: 0.1rem 0 0.2rem;
