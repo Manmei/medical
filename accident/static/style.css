@@ -328,8 +328,8 @@ table{
 }
 .g-accident .m-content .tab_nav .nav_list a {
     display: inline-block;
-    padding: 0.12rem 0.19rem;
-    margin: 0 0.25rem 0.2rem 0;
+    padding: 0.08rem 0.1333rem;
+    margin: 0 0.05rem 0.2rem 0;
     background: #efefef;
     border-radius: 1rem;
     color: #535353;
