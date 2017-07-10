@@ -1,0 +1,91 @@
+@charset "utf-8";
+/*@media screen and (min-width: 768px) {html {font-size: 38.4px;}html,body {max-width: 768px;margin: 0 auto;min-height: 100%;}}*/
+html,body {
+    -webkit-user-select:none;
+    user-select: none;
+}
+a,body,button,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,hr,input,label,li,ol,p,select,span,table,td,textarea,th,tr,ul {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-size: 16px;
+    font-family:"Microsoft Yahei",Arial,"Lucida Grande","Hiragino Sans GB","Hiragino Sans GB W3",SimSun,"PingFang SC",STHeiti;
+    color:#333;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    -webkit-text-size-adjust:100%;
+}
+ul,li,dl,dt,dd {
+    list-style: none
+}
+a,a:visited {
+    text-decoration: none;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0)
+}
+input::-webkit-input-speech-button {
+    display: none;
+}
+button,input,select,textarea {
+    outline: medium none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+button,input{
+    border: none;
+    background: transparent
+}
+textarea {
+    resize: none;
+}
+img {
+    width: 100%;
+    vertical-align: middle
+}
+._ellipsis{
+    display:block;/*内联对象需加*/
+    width:21em; /*根据情况重新定义*/
+    word-break:keep-all;/* 不换行 */
+    white-space:nowrap;/* 不换行 */
+    text-overflow: ellipsis;
+    -o-text-overflow:ellipsis;
+    overflow: hidden;
+}
+.f-cb:after {
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    content: ".";
+}
+.fl {
+    float: left
+}
+.fr {
+    float: right
+}
+.tc {
+    text-align: center;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mt15 {
+    margin-top: 10px;
+}
+.mt50 {
+    margin-top: 50px;
+}
+/*  m-banner  */
+.season-index .m-header {
+    background: linear-gradient(to bottom,#ffffff,#efefef);
+    height: 0.55rem;
+
+}
+.season-index .m-header img {
+    width: 1.77rem;
+}
