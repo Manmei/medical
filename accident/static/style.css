@@ -335,7 +335,8 @@ table{
     color: #535353;
     font-size: 0.22rem;
 }
-.g-accident .m-content .tab_nav .nav_list a:nth-child(4n) {
+.g-accident .m-content .tab_nav .nav_list a:nth-child(5n) {
+    margin-right: 0;
 }
 .g-accident .m-content .tab_nav .nav_list a.active {
     background: linear-gradient(to right,#fcc530,#fab125);
