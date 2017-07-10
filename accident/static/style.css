@@ -363,6 +363,7 @@ table{
     font-size: 0.26rem;
     font-weight: bold;
     color: #39383c;
+    letter-spacing: 0;
 }
 .g-accident .m-content .list li a p strong {
     color: #ff2e2e;
