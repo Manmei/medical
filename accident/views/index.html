@@ -190,18 +190,26 @@
                 if ($(this).hasClass('all')) {
                     $(this).addClass('active');
                     selectTab = [];
+					doTab(selectTab)
+					return
                 }
                 $(this).removeClass("active");
                 selectTab.splice(selectTab.indexOf($(this).attr('class')), 1);
                 doTab(selectTab)
             } else {
+			
+			
+
                 if ($('.nav_list .all').hasClass('active')) {
                     $('.nav_list  a').removeClass("active");
                     selectTab = [];
                 }
                 if ($(this).hasClass('all')) {
-                    selectTab = ['sgsc', 'ylbc', 'zyjt', 'stc', 'jhc', 'jxb'];
+                    selectTab = [];
                     $('.nav_list  a:not(".all")').removeClass("active");
+					  doTab(selectTab);
+					   $(this).addClass("active");
+					  return 
                 }
                 selectTab.push($(this).attr('class'));
                 doTab(selectTab);
