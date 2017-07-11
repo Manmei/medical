@@ -83,6 +83,9 @@ img {
 .mt50 {
     margin-top: 50px;
 }
+.b_bdashed {
+    border-bottom: 1px dashed #fff;
+}
 /*  m-banner  */
 .season-index .m-header {
     background: linear-gradient(to bottom,#ffffff,#efefef);
@@ -123,9 +126,6 @@ img {
 .season-index .m-container .pannel {
     background: #7661f7;
     padding: 0.25rem 0.65rem;
-}
-.season-index .m-container .pannel:first-child {
-    border-bottom: 0.1rem dashed #fff;
 }
 .season-index .m-container .pannel ul {
 }
