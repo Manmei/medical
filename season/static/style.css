@@ -94,12 +94,18 @@ img {
     display: block;
     float: left;
     font-size: 0.24rem;
+    border-right: 1px solid #b7ddf9;
+}
+.season-index .m-header a:last-child {
+    border-right: none;
 }
 .season-index .m-header p {
-    margin-left: -0.52rem;
+    margin-left: -0.052rem;
     background: linear-gradient(to bottom,#ffffff,#efefef);
     margin-top: 0.13rem;
+    padding-left: 0.13rem;
 }
 .season-index .m-header p a img {
     width: 0.27rem;
+    margin-right: 0.05rem;
 }
