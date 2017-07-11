@@ -116,7 +116,12 @@ img {
 }
 .season-index .m-container .pannel ul {
 }
+.season-index .m-container .pannel ul li {
+    border-radius: 0.3rem;
+    border: 2px solid #fff;
+}
 .season-index .m-container .pannel ul li:first-child {
     border-bottom: 1px dashed #fff;
-    border-radius: 0.3rem;
+    border-radius: 0;
+
 }
