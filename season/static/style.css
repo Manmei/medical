@@ -88,7 +88,7 @@ img {
 }
 .season-index .m-header .logo-img {
     width: 1.5rem;
-    margin-top: 0.03rem;
+    margin-top: 0.065rem;
 }
 .season-index .m-header a {
     display: block;
@@ -96,7 +96,7 @@ img {
     font-size: 0.24rem;
 }
 .season-index .m-header p {
-    margin-left: -0.04rem;
+    margin-left: -0.52rem;
     background: linear-gradient(to bottom,#ffffff,#efefef);
     margin-top: 0.13rem;
 }
