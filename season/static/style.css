@@ -116,7 +116,7 @@ img {
 }
 .season-index .m-container .pannel {
     background: #7661f7;
-    padding: 0.25rem 0.95rem;
+    padding: 0.25rem 0.65rem;
 }
 .season-index .m-container .pannel ul {
 }
@@ -140,8 +140,13 @@ img {
 }
 .season-index .m-container .pannel ul li p {
     color: #fff;
+    font-size: 0.23rem;
+    line-height: 1.5;
 }
 .season-index .m-container .pannel ul li .subsidies {
     margin-right: -1.1rem;
     margin-top: 0.08rem;
+}
+.season-index .m-container .pannel ul li .txt {
+    border-bottom: 1px solid #fff;
 }
