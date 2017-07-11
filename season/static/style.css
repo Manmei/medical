@@ -77,6 +77,9 @@ img {
 .mt15 {
     margin-top: 10px;
 }
+.mt30 {
+    margin-top: 0.3rem;
+}
 .mt50 {
     margin-top: 50px;
 }
@@ -138,5 +141,6 @@ img {
     color: #fff;
 }
 .season-index .m-container .pannel ul li .subsidies {
-    margin-right: -0.2rem;
+    margin-right: -1.1rem;
+    margin-top: 0.08rem;
 }
