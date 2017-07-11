@@ -93,6 +93,10 @@ img {
 .b_bdashed {
     border-bottom: 1px dashed #fff;
 }
+.bg_e8 {
+    background-color: #e8e8e8;
+}
+
 /*  m-banner  */
 .season-index .m-header {
     background: linear-gradient(to bottom,#ffffff,#efefef);
