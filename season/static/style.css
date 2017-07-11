@@ -121,7 +121,7 @@ img {
     border: 2px solid #fff;
 }
 .season-index .m-container .pannel ul li:first-child {
-    border-bottom: 1px dashed #fff;
+    border: 1px dashed #fff;
     border-radius: 0;
 
 }
