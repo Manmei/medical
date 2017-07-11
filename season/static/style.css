@@ -122,6 +122,7 @@ img {
     border: 0.03rem solid #fff;
     margin-bottom: 0.5rem;
     text-align: center;
+    padding: 0 0.3rem;
 }
 .season-index .m-container .pannel ul li:first-child:after {
     position: absolute;
@@ -132,8 +133,10 @@ img {
     width: 144%;
     height: 1px;
     border-bottom: 1px dashed #eee;
-
 }
 .season-index .m-container .pannel ul li p {
     color: #fff;
+}
+.season-index .m-container .pannel ul li .subsidies {
+    margin-right: -0.2rem;
 }
