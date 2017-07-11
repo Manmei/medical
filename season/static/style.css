@@ -42,6 +42,8 @@ textarea {
     resize: none;
 }
 img {
+    width: 100%;
+    vertical-align: middle;
     display: block;
 }
 ._ellipsis{
