@@ -216,6 +216,7 @@ img {
 .season-index .m-footer .focus img {
     width: 1.77rem;
     margin: 0.28rem auto 0.18rem;
+    display: block;
 }
 .season-index .m-footer li {
     text-align: center;
