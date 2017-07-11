@@ -87,14 +87,8 @@ img {
     padding: 0 0.25rem;
 }
 .season-index .m-header .logo-img {
-    width: 1.5rem;
+    width: 1.45rem;
     margin-top: 0.065rem;
-}
-.season-index .m-header a {
-    display: block;
-    float: left;
-    font-size: 0.24rem;
-    border-right: 1px solid #b7ddf9;
 }
 .season-index .m-header a:last-child {
     border-right: none;
@@ -103,9 +97,16 @@ img {
     margin-left: -0.052rem;
     background: linear-gradient(to bottom,#ffffff,#efefef);
     margin-top: 0.13rem;
-    padding-left: 0.13rem;
+}
+.season-index .m-header p a {
+    display: block;
+    float: left;
+    font-size: 0.22rem;
+    border-right: 1px solid #b7ddf9;
+    padding: 0 0.1rem;
 }
 .season-index .m-header p a img {
     width: 0.27rem;
     margin-right: 0.05rem;
+    vertical-align: -2px;
 }
