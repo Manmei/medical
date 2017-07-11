@@ -125,7 +125,7 @@ img {
     padding: 0.25rem 0.65rem;
 }
 .season-index .m-container .pannel:first-child {
-    border-bottom: 1px dashed #fff;
+    border-bottom: 0.1rem dashed #fff;
 }
 .season-index .m-container .pannel ul {
 }
