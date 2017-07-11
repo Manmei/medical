@@ -128,15 +128,8 @@ img {
     text-align: center;
     padding: 0 0.3rem;
 }
-.season-index .m-container .pannel ul li:first-child:after {
-    position: absolute;
-    bottom: -0.3rem;
-    left: -22%;
-    display: block;
-    content: '';
-    width: 144%;
-    height: 1px;
-    border-bottom: 1px dashed #eee;
+.season-index .m-container .pannel {
+    border-bottom: 1px dashed #fff;
 }
 .season-index .m-container .pannel ul li p {
     position: relative;
