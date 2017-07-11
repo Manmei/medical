@@ -137,7 +137,7 @@ img {
     line-height: 1.5;
 }
 .season-index .m-container .pannel ul li .subsidies {
-    margin-right: -1.1rem;
+    margin-right: -1.19rem;
     margin-top: 0.08rem;
 }
 .season-index .m-container .pannel ul li p:after {
@@ -145,6 +145,7 @@ img {
     position: absolute;
     bottom: -0.1rem;
     left: -2.5%;
+    content: '';
     width: 95%;
     height: 1px;
     border-bottom: 1px solid #fff;
