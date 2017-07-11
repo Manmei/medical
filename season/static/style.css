@@ -118,16 +118,18 @@ img {
 }
 .season-index .m-container .pannel ul li {
     position: relative;
-    border-radius: 0.3rem;
-    border: 2px solid #fff;
+    border-radius: 0.1rem;
+    border: 0.03rem solid #fff;
+    margin-bottom: 0.5rem;
+    text-align: center;
 }
 .season-index .m-container .pannel ul li:first-child:after {
     position: absolute;
-    bottom: -10px;
-    left: 0;
+    bottom: -0.3rem;
+    left: -22%;
     display: block;
     content: '';
-    width: 90%;
+    width: 144%;
     height: 1px;
     border-bottom: 1px dashed #eee;
 
