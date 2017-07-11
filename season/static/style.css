@@ -198,11 +198,11 @@ img {
 }
 
 /*  m-footer  */
-.g-accident .m-footer {
+.season-index .m-footer {
     padding: 0.1rem 0 0.2rem;
     margin-top: 0.3rem;
 }
-.g-accident .m-footer .focus a {
+.season-index .m-footer .focus a {
     background: #fc9d43;
     color: #fff;
     padding: 0.09rem 0.23rem;
@@ -210,14 +210,14 @@ img {
     border-radius: 3px;
     font-size: 0.28rem;
 }
-.g-accident .m-footer .focus {
+.season-index .m-footer .focus {
     text-align: center;
 }
-.g-accident .m-footer .focus img {
+.season-index .m-footer .focus img {
     width: 1.77rem;
     margin: 0.28rem auto 0.18rem;
 }
-.g-accident .m-footer li {
+.season-index .m-footer li {
     text-align: center;
     font-size: 0.2rem;
     color: #7c7c7c;
