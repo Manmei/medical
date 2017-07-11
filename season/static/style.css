@@ -112,9 +112,9 @@ img {
 }
 .season-index .m-container .pannel {
     background: #7661f7;
+    padding: 0.25rem 0.95rem;
 }
 .season-index .m-container .pannel ul {
-    margin: 0.25rem 0.95rem;
 }
 .season-index .m-container .pannel ul li:first-child {
     border-bottom: 1px dashed #fff;
