@@ -44,7 +44,6 @@ textarea {
 img {
     width: 100%;
     vertical-align: middle;
-    display: block;
 }
 ._ellipsis{
     display:block;/*内联对象需加*/
@@ -115,8 +114,11 @@ img {
     vertical-align: -2px;
     margin-top: -1px;
 }
-.season-index .m-container {
+.season-index .m-container .banner {
     font-size: 0;
+}
+.season-index .m-container .banner img {
+    display: block;
 }
 .season-index .m-container .pannel {
     background: #7661f7;
