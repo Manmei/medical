@@ -71,8 +71,8 @@ img {
 .tc {
     text-align: center;
 }
-.mt10 {
-    margin-top: 10px;
+.mt5 {
+    margin-top: 0.05rem;
 }
 .mt15 {
     margin-top: 10px;
@@ -123,6 +123,8 @@ img {
 .season-index .m-container .pannel {
     background: #7661f7;
     padding: 0.25rem 0.65rem;
+}
+.season-index .m-container .pannel:first-child {
     border-bottom: 1px dashed #fff;
 }
 .season-index .m-container .pannel ul {
@@ -131,7 +133,6 @@ img {
     position: relative;
     border-radius: 0.1rem;
     border: 0.03rem solid #fff;
-    margin-bottom: 0.5rem;
     text-align: center;
     padding: 0 0.3rem;
 }
@@ -149,11 +150,11 @@ img {
     display: block;
     position: absolute;
     bottom: -0.1rem;
-    left: -2.5%;
+    left: 2.5%;
     content: '';
-    width: 95%;
+    width: 90%;
     height: 1px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
 }
 .season-index .m-container .pannel ul li button {
     padding: 0.2rem 0.45rem 0.4rem;
