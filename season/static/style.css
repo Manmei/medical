@@ -80,8 +80,15 @@ img {
 .mt30 {
     margin-top: 0.3rem;
 }
+._mt30 {
+    margin-top: -0.3rem;
+}
 .mt50 {
     margin-top: 50px;
+}
+
+.pt35 {
+    padding-top: 0.35rem;
 }
 .b_bdashed {
     border-bottom: 1px dashed #fff;
