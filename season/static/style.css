@@ -102,6 +102,11 @@ img {
     background: linear-gradient(to bottom,#ffffff,#efefef);
     height: 0.55rem;
     padding: 0 0.25rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 }
 .season-index .m-header .logo-img {
     width: 1.45rem;
@@ -200,7 +205,6 @@ img {
 /*  m-footer  */
 .season-index .m-footer {
     padding: 0.1rem 0 0.2rem;
-    margin-top: 0.3rem;
 }
 .season-index .m-footer .focus a {
     background: #fc9d43;
