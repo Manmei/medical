@@ -74,11 +74,14 @@ img {
 .mt5 {
     margin-top: 0.05rem;
 }
-.mt15 {
-    margin-top: 10px;
+.mt10 {
+    margin-top: 0.1rem;
 }
 .mt20 {
     margin-top: 0.2rem;
+}
+.mt25 {
+    margin-top: 0.25rem;
 }
 .mt30 {
     margin-top: 0.3rem;
@@ -200,12 +203,35 @@ img {
     width: 1.6rem;
     margin-bottom: 0.18rem;
 }
+.season-index .m-container .star_list .list_con {
+    width: 100%;
+    overflow: hidden;
+}
+.season-index .m-container .star_list ul {
+    width: 100rem;
+}
+.season-index .m-container .star_list ul li {
+    margin-right: 0.15rem;
+    border-radius: 0.05rem;
+    background: #fff;
+    width: 4.4rem;
+    float: left;
+}
+.season-index .m-container .star_list ul li img {
+    width: 4.4rem;
+}
+.season-index .m-container .star_list ul li p {
+    padding: 0.2rem 0.25rem;
+    font-size: 0.3rem;
+    color: #39383c;
+    font-weight: bold;
+}
+
 .season-index .m-container .star_list {
     background: url(img/star_bg.jpg) no-repeat;
     background-size: 100%;
-    padding-top: 0.38rem;
+    padding-top: 0.44rem;
 }
-
 .season-index .m-container .care_list li {
     margin-bottom: 0.18rem;
     border-radius: 0.03rem;
