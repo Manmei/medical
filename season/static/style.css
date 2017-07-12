@@ -77,6 +77,9 @@ img {
 .mt15 {
     margin-top: 10px;
 }
+.mt20 {
+    margin-top: 0.2rem;
+}
 .mt30 {
     margin-top: 0.3rem;
 }
@@ -85,6 +88,9 @@ img {
 }
 .mt50 {
     margin-top: 50px;
+}
+.mtb25 {
+    margin: 0.25rem 0;
 }
 
 .pt35 {
@@ -95,6 +101,12 @@ img {
 }
 .bg_e8 {
     background-color: #e8e8e8;
+}
+.tl {
+    text-align: left;
+}
+.tc {
+    text-align: center;
 }
 
 /*  m-banner  */
@@ -231,34 +243,44 @@ img {
 
 /*  season-fan  */
 .season-fan .m-container {
-    padding: 0 0.6rem;
+    padding: 0 0.56rem;
 }
 .season-fan .m-container .step {
-    padding-bottom: 0.2rem;
+    padding-bottom: 0.3rem;
     text-align: center;
+    box-sizing: border-box;
 }
 .season-fan .m-container .step .step_txt {
     width: 1rem;
+    margin: 0 auto;
 }
 .season-fan .m-container .step p{
-    font-size: 0.28px;
+    font-size: 0.26rem;
     color: #525252;
+    text-align: left;
 }
 .season-fan .m-container .step .step1_img {
-     width: 5.45rem;
+    width: 5rem;
+    margin-left: 0.5rem;
 }
 .season-fan .m-container .step2 .contact {
     margin: 0.1rem 0 0.15rem;
-    border: 0.08rem solid;
-    broder-color: #ebebeb transparent;
-    padding: 0.15rem 0.6rem;
+    border-top: 0.08rem solid #ebebeb;
+    border-bottom: 0.08rem solid #ebebeb;
+    padding: 0.15rem 0.45rem;
 }
 .season-fan .m-container .step2 .contact .who strong {
     color: #2f2f2f;
-    font-size: 0.32rem;
+    font-size: 0.3rem;
+}
+.season-fan .m-container .step2 .contact .who {
+    text-align: left;
+    padding: 0.241rem 0;
+    padding-left: 0.15rem;
 }
 .season-fan .m-container .step2 .contact .who p {
-    font-size: 0.26rem;
+    font-size: 0.24rem;
+    margin-top: 0.1rem;
 }
 .season-fan .m-container .step2 .contact .who p span {
     border: 1px solid #f54141;
@@ -267,4 +289,46 @@ img {
     border-radius: 0.03rem;
     padding: 0.1rem;
     vertical-align: middle;
+    font-size: 0.24rem;
+}
+.season-fan .m-container .step2 .contact img {
+    width: 1.3rem;
+}
+.season-fan .m-container .step2 .add_friend {
+    margin-top: 0.15rem;
+}
+.season-fan .m-container .step2 .add_friend p {
+    font-size: 0.26rem;
+    color: #8c8b8b;
+    text-align: center;
+}
+.season-fan .m-container .step3 {
+    margin-top: 0.1rem;
+}
+.season-fan .m-container .step3 .detail {
+    margin: 0.4rem 0 0.15rem;
+}
+.season-fan .m-container .step3 .detail h4 {
+    color: #636dea;
+    font-size: 0.22rem;
+    font-weight: bold;
+}
+.season-fan .m-container .step3 .detail p {
+    font-size: 0.24px;
+    color: #535353;
+    line-height: 1.5;
+    background: #f6f6f6;
+    padding: 0.2rem 0.15rem;
+    border-radius: 0.03rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0.2rem;
+}
+.season-fan .m-container .step3 .detail button {
+    padding: 0.2rem 0.55rem;
+    color: #fff;
+    background: #6e88f8;
+    border-bottom: 0.08rem solid #5a74e3;
+    border-radius: 0.05rem;
+    font-size: 0.3rem;
+    font-weight: 500;
 }
