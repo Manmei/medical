@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <title>无保险不远游</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <!-- WebApp全屏模式   隐藏地址栏-->
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="telephone=no,email=no" name="format-detection">
+    <!--禁止百度转码显示-->
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="keywords" content="无保险不远游"/>
+    <meta name="description" content="无保险不远游"/>
+    <link rel="stylesheet" href="../static/style.css">
+    <script type="text/javascript">
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    if (clientWidth >= 640) {
+                        docEl.style.fontSize = '100px';
+                    } else {
+                        docEl.style.fontSize = 100 * (clientWidth / 640) + 'px';
+                    }
+                };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <!--百度统计代码-->
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?a7b64a3f4b23f48a61ea0fd37413ba54";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body>
+    <section class="season-fan">
+        <header>
+            <h1><img src="../static/img/season_fan_01.png" alt=""></h1>
+        </header>
+        <div class="m-container">
+            <div class="step">
+                <img class="step_txt" src="../static/img/season_fan_02.png" alt="">
+                <p>在探保网保险超市购买带“返”的保险产品</p>
+                <img class="step1_img" src="../static/img/season_fan_05.png" alt="">
+            </div>
+            <div class="step step2">
+                <img class="step_txt" src="../static/img/season_fan_03.png" alt="">
+                <p>支付成功后联系探小保</p>
+                <div class="contact f-cb">
+                    <img src="../static/img/season_fan_06.png" alt="" class="fl">
+                    <div class="who fl">
+                        <strong>探小保</strong>
+                        <p>微信号：<span>anxinbaokf</span></p>
+                    </div>
+                    <div class="add_friend">
+                        <p>搜索微信号添加好友</p>
+                    </div>
+                </div>
+            </div>
+            <div class="step step3">
+                <img class="step_txt" src="../static/img/season_fan_04.png" alt="">
+                <p>审核通过后，通过微信红包发放暑期补贴。</p>
+                <div class="detail">
+                    <h4>了解详情↓</h4>
+                    <p>每款产品的补贴比例会不同，可以先咨询探小保，再选择购买。<br/>加入探小保的补贴群可以参与每周抽奖、了解产品优惠、咨询答疑、查询补贴进度。</p>
+                    <button>去保险超市</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

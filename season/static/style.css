@@ -228,3 +228,43 @@ img {
     color: #7c7c7c;
     line-height: 1.5;
 }
+
+/*  season-fan  */
+.season-fan .m-container {
+    padding: 0 0.6rem;
+}
+.season-fan .m-container .step {
+    padding-bottom: 0.2rem;
+    text-align: center;
+}
+.season-fan .m-container .step .step_txt {
+    width: 1rem;
+}
+.season-fan .m-container .step p{
+    font-size: 0.28px;
+    color: #525252;
+}
+.season-fan .m-container .step .step1_img {
+     width: 5.45rem;
+}
+.season-fan .m-container .step2 .contact {
+    margin: 0.1rem 0 0.15rem;
+    border: 0.08rem solid;
+    broder-color: #ebebeb transparent;
+    padding: 0.15rem 0.6rem;
+}
+.season-fan .m-container .step2 .contact .who strong {
+    color: #2f2f2f;
+    font-size: 0.32rem;
+}
+.season-fan .m-container .step2 .contact .who p {
+    font-size: 0.26rem;
+}
+.season-fan .m-container .step2 .contact .who p span {
+    border: 1px solid #f54141;
+    -webkit-border-radius: 0.03rem;
+    -moz-border-radius: 0.03rem;
+    border-radius: 0.03rem;
+    padding: 0.1rem;
+    vertical-align: middle;
+}
