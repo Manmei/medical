@@ -89,8 +89,8 @@ img {
 ._mt30 {
     margin-top: -0.3rem;
 }
-.mt50 {
-    margin-top: 50px;
+.mt55 {
+    margin-top: 0.55rem;
 }
 .mtb25 {
     margin: 0.25rem 0;
@@ -143,10 +143,14 @@ img {
     padding: 0 0.11rem;
 }
 .season-index .m-header p a img {
-    width: 0.27rem;
+    width: 0.25rem;
     margin-right: 0.05rem;
-    vertical-align: -2px;
+    vertical-align: -3px;
     margin-top: -1px;
+}
+.season-index .m-header p a .nav2 {
+    width: 0.3rem;
+    vertical-align: -0.02rem;
 }
 .season-index .m-container .banner {
     font-size: 0;
@@ -156,7 +160,7 @@ img {
 }
 .season-index .m-container .pannel {
     background: #7661f7;
-    padding: 0.25rem 0.65rem;
+    padding: 0.45rem 0.65rem 0.25rem;
 }
 .season-index .m-container .pannel ul {
 }
@@ -191,7 +195,10 @@ img {
     padding: 0.2rem 0.45rem 0.4rem;
     background: url(img/know_btn.png) no-repeat;
     background-size: contain;
-    margin: 0.25rem 0;
+    margin: 0.45rem 0 0.25rem;
+    font-weight: bold;
+    color: #363636;
+    font-size: 0.3rem;
 }
 .season-index .m-container .product {
     padding: 0.18rem;
@@ -206,9 +213,14 @@ img {
 .season-index .m-container .star_list .list_con {
     width: 100%;
     overflow: hidden;
+    position: relative;
+    min-height: 2.7rem;
 }
 .season-index .m-container .star_list ul {
-    width: 100rem;
+    width: 13.65rem;
+}
+.season-index .m-container .star_list ul li a {
+    display: block;
 }
 .season-index .m-container .star_list ul li {
     margin-right: 0.15rem;
@@ -216,6 +228,9 @@ img {
     background: #fff;
     width: 4.4rem;
     float: left;
+}
+.season-index .m-container .star_list ul li:last-child {
+    margin-right: 0;
 }
 .season-index .m-container .star_list ul li img {
     width: 4.4rem;
@@ -225,6 +240,7 @@ img {
     font-size: 0.3rem;
     color: #39383c;
     font-weight: bold;
+    text-align: left;
 }
 
 .season-index .m-container .star_list {
