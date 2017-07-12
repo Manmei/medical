@@ -277,6 +277,7 @@ img {
     text-align: left;
     padding: 0.241rem 0;
     padding-left: 0.15rem;
+    margin-top: 0.07rem;
 }
 .season-fan .m-container .step2 .contact .who p {
     font-size: 0.24rem;
@@ -301,6 +302,10 @@ img {
     font-size: 0.26rem;
     color: #8c8b8b;
     text-align: center;
+}
+.season-fan .m-container .step2 .prize {
+    width: 4.5rem;
+    margin-left: 0.5rem;
 }
 .season-fan .m-container .step3 {
     margin-top: 0.1rem;
