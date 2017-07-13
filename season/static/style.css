@@ -188,16 +188,16 @@ img {
     margin-right: -1.19rem;
     margin-top: 0.08rem;
 }
-.season-index .m-container .pannel ul li p:after {
-    display: block;
-    position: absolute;
-    bottom: -0.1rem;
-    left: 11.5%;
-    content: '';
-    width: 73%;
-    height: 1px;
-    border-bottom: 2px solid #fff;
-}
+/*.season-index .m-container .pannel ul li p:after {*/
+    /*display: block;*/
+    /*position: absolute;*/
+    /*bottom: -0.1rem;*/
+    /*left: 11.5%;*/
+    /*content: '';*/
+    /*width: 73%;*/
+    /*height: 1px;*/
+    /*border-bottom: 2px solid #fff;*/
+/*}*/
 .season-index .m-container .pannel ul li a {
     display: inline-block;
     padding: 0.2rem 0.45rem 0.4rem;
