@@ -131,7 +131,7 @@ img {
     border-right: none;
 }
 .season-index .m-header p {
-    margin-left: -0.052rem;
+    margin-left: -0.07rem;
     background: linear-gradient(to bottom,#ffffff,#efefef);
     margin-top: 0.13rem;
 }
@@ -179,6 +179,10 @@ img {
     color: #fff;
     font-size: 0.23rem;
     line-height: 1.5;
+}
+.season-index .m-container .pannel ul li p strong {
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
 }
 .season-index .m-container .pannel ul li .subsidies {
     margin-right: -1.19rem;
