@@ -131,7 +131,7 @@
                     $ul = $wrapper.querySelector('ul'),
                     liArray = $wrapper.querySelectorAll('li'),
                     liNum = liArray.length;
-                $ul.style.width = (liArray[0].clientWidth*3 + 20) +"px";
+                $ul.style.width = (liArray[0].clientWidth + 10)*3 +"px";
                 var carousel=new iScroll("wrapper",{hScrollbar:false, vScrollbar:false});
 
             });

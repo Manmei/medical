@@ -191,7 +191,8 @@ img {
     height: 1px;
     border-bottom: 2px solid #fff;
 }
-.season-index .m-container .pannel ul li button {
+.season-index .m-container .pannel ul li a {
+    display: inline-block;
     padding: 0.2rem 0.45rem 0.4rem;
     background: url(img/know_btn.png) no-repeat;
     background-size: contain;
