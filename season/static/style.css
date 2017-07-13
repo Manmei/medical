@@ -258,6 +258,9 @@ img {
     background-size: 100%;
     padding-top: 0.44rem;
 }
+.season-index .m-container .care_list {
+    padding-top: 0.12rem;
+}
 .season-index .m-container .care_list li {
     margin-bottom: 0.18rem;
     border-radius: 0.03rem;
