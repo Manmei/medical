@@ -187,8 +187,8 @@ img {
     border-bottom: 0.03rem solid #fff;
 }
 .season-index .m-container .pannel ul li .subsidies {
-    margin-right: -1.19rem;
     margin-top: 0.08rem;
+    margin-left: 0.18rem;
 }
 /*.season-index .m-container .pannel ul li p:after {*/
     /*display: block;*/
