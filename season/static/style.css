@@ -233,7 +233,7 @@ img {
     display: block;
 }
 .season-index .m-container .star_list ul li {
-    margin-right: 0.15rem;
+    margin-right: 15px;
     border-radius: 0.05rem;
     background: #fff;
     width: 4.4rem;
