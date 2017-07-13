@@ -62,7 +62,7 @@
                         <img class="subsidies" src="../static/img/season_subsidy.png" alt="">
                         <p class="mt5">7月-8月，投保任意一款带“返”的产品，可获得保费10%~80%不等的现金补贴。</p>
                         <img class="mt30" src="../static/img/season_fan.png" alt="">
-                        <button class="know-btn">了解活动详情</button>
+                        <a href="fan.html" class="know-btn">了解活动详情</a>
                     </li>
                 </ul>
             </div>
@@ -71,14 +71,14 @@
                     <li>
                         <img class="_mt30" src="../static/img/season_dolphin.png" alt="">
                         <p class="mt5">7月-8月，在微信粉丝群参与抽奖，有机会领取免费长隆水上世界门票1张。</p>
-                        <button class="know-btn">了解活动详情</button>
+                        <a href="lottery.html" class="know-btn">了解活动详情</a>
                     </li>
                 </ul>
             </div>
             <div class="product star_list">
                 <p><img src="../static/img/star_txt.png" alt=""></p>
-                <div id="wrapper" class="list_con">
-                    <ul class="f-cb">
+                <div id="wrapper"  class="list_con">
+                    <ul class="f-cb category_nav">
                         <li>
                             <a href="https://open.zhongan.com/standard/insure/productShowPageMobile.htm?productCode=PRD160426705042&promotionCode=INST170623538004&openOrderNo=P201706131053075240025663000&payChannel=wxpay,alipay&accessChannel=mobile">
                                 <img src="../static/img/start_list_01.jpg" alt="">
@@ -93,7 +93,7 @@
                         </li>
                         <li>
                             <a href="https://open.zhongan.com/standard/insure/productShowPageMobile.htm?productCode=PRD161120369050&promotionCode=INST170686617009&openOrderNo=P201706131058228210025642048&payChannel=wxpay,alipay&accessChannel=mobile">
-                                <img src="../static/img/start_list_02.jpg" alt="">
+                                <img src="../static/img/start_list_03.jpg" alt="">
                                 <p>尊享e生100万医疗险</p>
                             </a>
                         </li>
@@ -123,8 +123,20 @@
         </div>
     </section>
     <script src="../static/iscroll.js"></script>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript">
-        var Scroll = new iScroll('wrapper',{hScrollbar:false, vScrollbar:false});
+        $(function(){
+            window.addEventListener('load',function(){
+                var $wrapper = document.getElementById('wrapper'),
+                    $ul = $wrapper.querySelector('ul'),
+                    liArray = $wrapper.querySelectorAll('li'),
+                    liNum = liArray.length;
+                $ul.style.width = (liArray[0].clientWidth + 10)*3 +"px";
+                var carousel=new iScroll("wrapper",{hScrollbar:false, vScrollbar:false});
+
+            });
+        });
+
     </script>
 
 
