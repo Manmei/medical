@@ -142,7 +142,7 @@ a:hover{ text-decoration:underline;}
 .rhhc_tel{ position:absolute; font-size:14px; color:#C00; top:406px; left:295px;}
 /*初中生*/
 .banner03{width:100%;height:390px; background:url(../img/banner03.jpg) no-repeat center top;}
-.czs_tit1{margin-top:15px;height:42px; line-height:42px;font-size:30px; font-weight:bold; text-align:center;}
+.czs_tit1{margin-top:20px;height:42px; line-height:42px;font-size:30px; font-weight:bold; text-align:center;}
 .czs_tit1.red{color:#a82d00;}
 .czs_tit1.gray{color:#463f3b; margin-top:0;}
 .czs_tit2{height:36px; line-height:36px; color:#fff; background:url(../img/czstit2bg.gif) no-repeat center top; text-align:center; font-size:16px;}
@@ -230,4 +230,7 @@ ul.ul-xyhj li {
     float: left;
     margin-right: 10px;
     text-align: center;
+}
+ul.ul-xyhj li:hover p {
+    text-decoration: underline;
 }
