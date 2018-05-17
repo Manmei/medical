@@ -259,6 +259,7 @@ ul.ul-xyhj li:hover p {
     }
     .banner03 {
         height: auto;
+        margin-bottom: 5px;
     }
     .zt_box,.banbox,.box960,.cooperat-img {
         width: 100%;
@@ -308,8 +309,9 @@ ul.ul-xyhj li:hover p {
         float: none;
     }
     .foot-logo {
-        width: 110px;
-        margin-left: 30px
+        width: 185px;
+        margin-left: 30px;
+        margin-top: 20px;
     }
     .foot03 {
         padding: 0;
