@@ -49,10 +49,10 @@ span.wrong{ background:url(../img/msg_bg.gif) no-repeat 10px 0px; padding:2px 0;
 .com_box{ margin:0 auto; width:1100px; }
 .top_w{height:95px;background:#e5e5e5;}
 .top{ width:70%; margin:0 auto;line-height:38px; color:#333;}
-.top a{ margin-left:5px;} 
+.top a{ margin-left:5px;display: block;}
 .top a b{font-size: 20px; vertical-align: -3px;  margin-right: 3px;}
 .top a.rline{background:url(../img/com_bg.gif) no-repeat 0 -413px; padding-left:10px;}
-.top span{ float:right; line-height: 38px; margin-top: 25px; font-size: 16px;  }
+.top span{ float:right; line-height: 26px; margin-top: 20px; font-size: 16px;  }
 
 
 .nav{ width:965px; height:45px; background:url(../img/navbj.gif) no-repeat #3196da; padding-left:15px; padding-top:10px; margin-top:5px; overflow:hidden;}
@@ -405,3 +405,84 @@ span.wrong{ background:url(../img/msg_bg.gif) no-repeat 10px 0px; padding:2px 0;
 	cursor: pointer;
 }
 .rr_nav {overflow: hidden; height:0;}
+
+/* 响应式导航 */
+.menu_btn {
+	display: none;
+}
+.hidden {
+	display: none;
+}
+.top_w .top img {
+	width: 200px;
+	margin-top: 15px;
+	float: left;
+}
+/* Responsive for smaller screens */
+@media (max-width: 760px) {
+	.top_w {
+		height: 60px;
+	}
+	.top_w .top {
+		width: 96%;
+	}
+	.top_w .top img {
+		width: 110px;
+	}
+	.top span {
+		font-size: 12px;
+		margin-top: 15px;
+		line-height: 20px;
+	}
+	.ind_nav{
+		display: block;
+		padding: 1em;
+		color: #9d9d9d;
+		border-bottom: 1px solid #101010;
+		-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.1);
+		box-shadow: 0 1px 0 rgba(255,255,255,.1);
+		margin-bottom: 0;
+	}
+	.menu_btn {
+		box-sizing: border-box;
+		display: inline-block;
+		padding: 3px 30px;
+		border: 1px solid #fff;
+		border-radius: 5px;
+		height: 45px;
+		line-height: 34px;
+		color: white;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+	.menu_btn:hover {
+		cursor: pointer;
+		background-color:#0c73bf;
+	}
+	.hamburger {
+		vertical-align: middle;
+		display: inline-block;
+		padding-top: .15em;
+	}
+	.menu_btn span{
+		display: block;
+		background-color: #fff;
+		width: 1.2em;
+		height: .15em;
+		border-radius: 1px;
+		margin-bottom: .2em;
+	}
+	nav ul.ind_navbg {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0;
+		box-sizing: border-box;
+		margin-left: -15px;
+	}
+
+
+}
