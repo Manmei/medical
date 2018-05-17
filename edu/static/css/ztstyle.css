@@ -212,8 +212,8 @@ a:hover{ text-decoration:underline;}
 
 /*  导航  */
 .ind_nav{width:100%;height:50px; line-height:50px; margin-top:1px; background:#006bb5;}
-.ind_navbg{background:#006bb5; clear:both; position: relative; z-index:12;  padding-left:5px; margin:0 auto; width:1095px;}
-.ind_nav li{float:left;height:50px; line-height:50px;}
+.ind_navbg{background:#006bb5; clear:both; position: relative; z-index:12;  padding-left:5px; margin:0 auto; width:70%;}
+.ind_nav li{display:inline-block;height:50px; line-height:50px;font-size: 0;}
 .ind_nav li:hover{background:#65aade;}
 .ind_nav li a{color:#fff;font-size: 16px; padding:0 17px 0 10px;}
 /*.ind_nav li a.ajbg{ background:url(../img/navarr.gif) no-repeat right center;}*/
@@ -233,4 +233,66 @@ ul.ul-xyhj li {
 }
 ul.ul-xyhj li:hover p {
     text-decoration: underline;
+}
+/* 响应式导航 */
+.menu_btn {
+    display: none;
+}
+.hidden {
+    display: none;
+}
+/* Responsive for smaller screens */
+@media (max-width: 760px) {
+    .ind_nav{
+        display: block;
+        padding: 1em;
+        color: #9d9d9d;
+        border-bottom: 1px solid #101010;
+        -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.1);
+        box-shadow: 0 1px 0 rgba(255,255,255,.1);
+        margin-bottom: .5em;
+    }
+    .menu_btn {
+        box-sizing: border-box;
+        float: right;
+        padding: .5em 1em;
+        border: 1px solid #333;
+        border-radius: 5px;
+        color: white;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+   .menu_btn:hover {
+        cursor: pointer;
+        background-color: #333;
+    }
+    .hamburger {
+        float: right;
+        padding-top: .15em;
+    }
+    .menu_btn span{
+        display: block;
+        background-color: #fff;
+        width: 1.2em;
+        height: .15em;
+        border-radius: 1px;
+        margin-bottom: .2em;
+    }
+    nav ul {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    nav ul li {
+        display: block;
+    }
+    nav ul li a {
+        width: 100%;
+    }
+
 }

@@ -48,7 +48,7 @@ span.wrong{ background:url(../img/msg_bg.gif) no-repeat 10px 0px; padding:2px 0;
 
 .com_box{ margin:0 auto; width:1100px; }
 .top_w{height:95px;background:#e5e5e5;}
-.top{ width:1100px; margin:0 auto;line-height:38px; color:#333;}
+.top{ width:70%; margin:0 auto;line-height:38px; color:#333;}
 .top a{ margin-left:5px;} 
 .top a b{font-size: 20px; vertical-align: -3px;  margin-right: 3px;}
 .top a.rline{background:url(../img/com_bg.gif) no-repeat 0 -413px; padding-left:10px;}
