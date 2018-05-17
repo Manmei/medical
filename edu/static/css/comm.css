@@ -436,7 +436,7 @@ span.wrong{ background:url(../img/msg_bg.gif) no-repeat 10px 0px; padding:2px 0;
 	}
 	.ind_nav{
 		display: block;
-		padding: 1em;
+		padding: 0;
 		color: #9d9d9d;
 		border-bottom: 1px solid #101010;
 		-webkit-box-shadow: 0 1px 0 rgba(255,255,255,.1);

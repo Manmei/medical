@@ -287,11 +287,11 @@ ul.ul-xyhj li:hover p {
         padding-top: 15px;
         margin: 0 2px;
         background-size: 100%;
-        height: 44px;
+        height: 46px;
         width: 60px;
     }
     .qiehuan_03h span.ed {
-        height: 44px;
+        height: 46px;
         background-position: center -59px;
     }
     .qiehuan_03h {
@@ -320,5 +320,8 @@ ul.ul-xyhj li:hover p {
         right: 30px;
         width: 70px;
         margin-top: 16px;
+    }
+    .ind_nav_li ul {
+        width: 100%;
     }
 }
