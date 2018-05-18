@@ -141,12 +141,12 @@ a:hover{ text-decoration:underline;}
 .foot02 a{color:#c4cfde;}
 .rhhc_tel{ position:absolute; font-size:14px; color:#C00; top:406px; left:295px;}
 /*初中生*/
-.banner03{width:100%;height:295px; overflow: hidden;}
+.banner03{width:100%;height:395px; overflow: hidden;}
 .czs_tit1{margin-top:20px;height:42px; line-height:42px;font-size:30px; font-weight:bold; text-align:center;}
 .czs_tit1.red{color:#a82d00;}
 .czs_tit1.gray{color:#463f3b; margin-top:0;}
-.czs_tit2{height:36px; line-height:36px; color:#fff; background:url(../img/czstit2bg.gif) no-repeat center top; text-align:center; font-size:16px;}
-.czs_tit2.yellow{background:url(../img/czstit2ybg.gif) no-repeat center top;}
+.czs_tit2{height:36px; line-height:36px; color:#fff; background:url(../img/czstit2bg.png) no-repeat center top; text-align:center; font-size:16px;}
+.czs_tit2.yellow{background:url(../img/czstit2ybg.png) no-repeat center top;}
 .czs_qj{padding-left:280px;font-size:16px; line-height:26px;}
 .czs_ybg{ background:#fec045; padding:20px 0;}
 .czs_zsext{width:470px; font-size:16px; line-height:26px;}
@@ -212,7 +212,7 @@ a:hover{ text-decoration:underline;}
 .lhz_cont{margin-top:15px;}
 
 /*  导航  */
-.ind_nav{width:100%;height:50px; line-height:50px; margin-top:1px; background:#006bb5;}
+    .ind_nav{width:100%;height:58px; line-height:50px; margin-top:1px; background:#006bb5;}
 .ind_navbg{background:#006bb5; clear:both; position: relative; z-index:12;  padding-left:5px; margin:0 auto; width:78%;}
 .ind_nav li{display:inline-block;height:50px; line-height:50px;font-size: 0;}
 .ind_nav li:hover{background:#65aade;}
@@ -291,7 +291,7 @@ ul.ul-xyhj li:hover p {
         width: 96%;
     }
     .box960.mar_t20 .sss{
-        width: 111%;
+        width: 96%;
         margin-left: 7px;
     }
     .cooperat-img img {
@@ -320,6 +320,13 @@ ul.ul-xyhj li:hover p {
         width: 100%;
     }
     ul.ul-xyhj li {
+        float: none;
+    }
+    .lhz_cont ul {
+        text-align: center;
+    }
+    .lhz_cont ul li {
+        display: inline-block;
         float: none;
     }
     .foot-logo {
