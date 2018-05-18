@@ -456,10 +456,11 @@ span.wrong{ background:url(../img/msg_bg.gif) no-repeat 10px 0px; padding:2px 0;
 	.menu_btn {
 		box-sizing: border-box;
 		display: inline-block;
-		padding: 3px 30px;
+		padding: 0px 15px;
 		border: 1px solid #fff;
 		border-radius: 5px;
-		height: 45px;
+		height: 38px;
+		margin-top: 5px;
 		line-height: 34px;
 		color: white;
 		-webkit-touch-callout: none;
