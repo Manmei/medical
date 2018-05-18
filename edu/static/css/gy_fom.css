@@ -1,9 +1,0 @@
-/*---------------------form----------------------------*/
-.fom_tit{height:40px; line-height:40px;color:#fff; background:#2883dc;padding-left:15px;width:1085px;}
-.fom_tab{height:275px; border:1px solid #c0c0c0; background:#fff; color:#333;}
-.fom_tab table{margin:20px 0 0 0;}
-.fom_tab td{width:310px; padding:6px 0 0 20px; height:30px}
-.fom_tab lable,.fom_tab input,.fom_tab span,.fom_tab select{ display:inline-block;}
-.fom_tab input.extext,.fom_tab select.zzlx{width:200px;height:24px; border:1px solid #c0c0c0;}
-.fom_tab input.bmtj{width:109px; height:31px; margin-right:10px; background:url(qrbm.gif) no-repeat left top; text-indent:-9999px; border:none;}
-.fom_tab input.bmcz{width:109px; height:31px; margin-right:10px; background:url(cxtx.gif) no-repeat left top; text-indent:-9999px; border:none;}
