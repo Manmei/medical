@@ -418,6 +418,16 @@ span.wrong{ background:url(../img/msg_bg.gif) no-repeat 10px 0px; padding:2px 0;
 	margin-top: 15px;
 	float: left;
 }
+.ding-content{
+	font-size: 0;
+}
+.ding-content img {
+	width: 439px;
+	display: inline-block;
+}
+.ding-content .sss {
+	width: 510px;
+}
 /* Responsive for smaller screens */
 @media (max-width: 760px) {
 	.top_w {
@@ -481,8 +491,9 @@ span.wrong{ background:url(../img/msg_bg.gif) no-repeat 10px 0px; padding:2px 0;
 		margin: 0 auto;
 		padding: 0;
 		box-sizing: border-box;
-		margin-left: -15px;
 	}
-
-
+	.ding-content .sss {
+		width: 111%;
+		margin-left: 7px;
+	}
 }

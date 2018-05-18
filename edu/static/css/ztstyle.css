@@ -238,8 +238,15 @@ ul.ul-xyhj li {
 ul.ul-xyhj li:hover p {
     text-decoration: underline;
 }
+.top_w .top .ewm-head img {
+    width: 85px;
+    margin: 5px 0 0 20px;
+}
 /* Responsive for smaller screens */
 @media (max-width: 760px) {
+    .top_w .top .ewm-head img {
+        display: none;
+    }
     .menu_btn nav {
         background: rgba(0, 107, 181, 0.6);
         width: 100%;
@@ -279,6 +286,10 @@ ul.ul-xyhj li:hover p {
     }
     .box960.mar_t20 >img {
         width: 96%;
+    }
+    .box960.mar_t20 .sss{
+        width: 111%;
+        margin-left: 7px;
     }
     .cooperat-img img {
         width: 100%;
