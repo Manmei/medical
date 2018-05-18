@@ -302,7 +302,7 @@ ul.ul-xyhj li:hover p {
         padding-top: 15px;
         margin: 0 2px;
         background-size: 100%;
-        height: 46px;
+        height: 45px;
         width: 60px;
     }
     .qiehuan_03h span.ed {
@@ -328,6 +328,10 @@ ul.ul-xyhj li:hover p {
     .lhz_cont ul li {
         display: inline-block;
         float: none;
+        margin-left: 0;
+    }
+    .lhz_cont ul p {
+        text-align: left;
     }
     .foot-logo {
         width: 185px;
